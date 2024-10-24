@@ -136,7 +136,7 @@ $ git clone url
 
 Con el link del repositorio de GitHub se trae una copia del master y de los Directorios
 
-$ git push
+$ git push origin
 
 Se envian todos los cambios, commits que se encuentran almacenados en git de forma local al repositorio Remoto
 
@@ -148,7 +148,7 @@ $ git merge
 
 combina los archivos actuales que tengo con los cambios traidos del repositorio remoto
 
-$ git pull
+$ git pull origin
 
 Combinación de fetch y merge
 
