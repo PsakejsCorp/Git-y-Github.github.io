@@ -25,6 +25,10 @@ $ git show
 
 Mostrara todos los cambios que hemos hecho
 
+$git show archivo
+
+Mostrara todos los cambios que hemos hecho en un archivo especifico
+
 $ git log ComandosDeGit.txt
 
 Ver historia de un archivo
@@ -64,6 +68,8 @@ Sirve para cambiar la configuración del nombre a nivel global
 $ git config --global user.email "Tu correo"
 
 Sirve para cambiar la configuración del correo a nivel global
+
+
 
 
 
