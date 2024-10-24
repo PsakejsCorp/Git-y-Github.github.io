@@ -153,12 +153,13 @@ $ git pull
 Combinación de fetch y merge
 
 
+
+
 Ramas o branches de Git:
 
 $ git branch nombre
 
 Crear nueva rama 
-
 
 $ git checkout nombrerama
 
@@ -167,6 +168,16 @@ cambiar a la nueva rama
 $ git merge nombrarama (se hace desde la rama principal) "mensaje opcional"
 
 Une los cambios de una rama con otra
+
+
+
+Resolución de conflictos al hacer un merge:
+
+
+
+
+
+
 
 
 
