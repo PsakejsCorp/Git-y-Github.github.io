@@ -320,3 +320,17 @@ Lo elimina de GitHub tambien
 
 Enviar diferentes branches al GitHUb:
 
+$ git show-branch 
+
+Muestra la lista de branches que hay actualmente
+
+
+$ git show-branch --all
+
+Muestra la lista de branches de una manera más especifica
+
+gitk
+
+Abre una aplicación donde se pueden ver las branchs y todos los commits
+
+
