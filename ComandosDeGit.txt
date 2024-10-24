@@ -161,13 +161,46 @@ $ git branch nombre
 
 Crear nueva rama 
 
+$ git branch --list
+
+Lista de ramas existentes
+
+$ git branch --delete nombrerama
+
+Borra la rama que se le indique
+
+$ git branch -D  nombrerama
+
+Fuerza la eliminación de las ramas que aún no han sido fusionadas
+
+$ git branch -v 
+
+Muestra el ultimo commit de cada rama
+
+$ git branch --merged
+
+Lista de ramas que se fusionaron con la rama actual
+
+$ git branch --no-merged 
+
+Lista de ramas que no se han fusionado con la actual
+
+
 $ git checkout nombrerama
 
 cambiar a la nueva rama
 
+$ git checkout -b 
+
+creara una nueva ram y saltara a ella de manera inmediata
+
 $ git merge nombrarama (se hace desde la rama principal) "mensaje opcional"
 
 Une los cambios de una rama con otra
+
+$ git merge --abort
+
+Anula el merge y de vuelbve todo a como estaba antes
 
 
 
