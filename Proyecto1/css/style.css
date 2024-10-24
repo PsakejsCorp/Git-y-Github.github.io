@@ -3,6 +3,8 @@ body{
     color: darkcyan;
     font-family: cursive;
     font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 #container{
@@ -15,5 +17,13 @@ body{
 
 #container h1{
     font-size: 20px;
+}
+
+.cabecera{
+    background: blue;
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+    font-weight: bold;
 }
 
