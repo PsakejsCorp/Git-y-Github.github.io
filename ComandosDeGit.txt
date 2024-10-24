@@ -214,6 +214,27 @@ Al unificar los cambios si hay un error se debe decidir cual parte del codigo de
 
 Llaves publicas y llaves privadas (cifrado asimetrico de un solo camino):
 
+1. Se debe abrir git bash y asegurarnos de estar en la carpeta home del pc son el comado pwd
+
+2. comandos:
+
+ssh-keygen -t rsa -b 4096 -C "perezrestrepoalejandro9@gmail.com"
+
+esto nos genera la llave y nos pide donde guardarla, recomendable hacerlo en la carpeta home
+
+tambien se nos pedira una contraseña si queremos ponemos una o no
+
+Ahora se tiene que agregar la llave al entorno o sistema operativo que estemos usando para que sepa que la llave existe:
+
+revisamos el servidor de llaves para evaluar que se dispare:
+
+eval $(ssh-agent -s)
+
+Agregamos la llave privada a nuestro sistema o servidor:
+
+ssh-add ~/.ssh/id_rsa
+
+
 
 
 
