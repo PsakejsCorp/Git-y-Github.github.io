@@ -2,5 +2,18 @@ body{
     text-align: center;
     color: darkcyan;
     font-family: cursive;
+    font-size: 16px;
+}
+
+#container{
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid rgb(46, 36, 36);
+    margin: 0 auto;
+}
+
+#container h1{
+    font-size: 20px;
 }
 
