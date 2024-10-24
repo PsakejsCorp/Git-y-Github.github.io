@@ -173,6 +173,10 @@ $ git branch nombre
 
 Crear nueva rama 
 
+$ git branch -m nuevonombre
+
+Cambiar el nombre del branch en el que nos encontramos
+
 $ git branch --list
 
 Lista de ramas existentes
@@ -295,6 +299,9 @@ Muestra una lista con todos los tags
 git show-ref --tags
 
 Muestra los tags y el commit al que estan relacionados
+
+
+
 
 
 
