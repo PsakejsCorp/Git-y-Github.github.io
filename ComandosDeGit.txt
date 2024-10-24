@@ -89,6 +89,19 @@ $ git checkout
 Traes los ultimos cambios o los que quieras de ciertos archivos
 
 
+$ git reset versionanterior --hard
+
+Sirve para volver TODO a una versión anterior del repositorio
+
+$ git reset versionanterior --soft
+
+Sirve para volver a una versión anterior del repositorio pero los cambios que esten en la sala de espera seguiran ahí
+
+
+
+
+
+
 
 
 
