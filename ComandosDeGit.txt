@@ -235,6 +235,43 @@ Agregamos la llave privada a nuestro sistema o servidor:
 ssh-add ~/.ssh/id_rsa
 
 
+Como relacionar nuestras credenciales de SSH con nuestro GitHub?
+
+Nos dirigimos a nuestro perfil y vamos a settings, alli en el aprtado de SSH keys daremos en crear una nueva,
+ahi pegaremos nuestra llave publica y listo
+
+$ git remote add origin url
+
+Ponemos la url de un repositorio para linkearlo a nuestra carpeta
+
+$ git remote -v 
+
+nos muestra hacia donde podemos hacer push y hacia donde podemos hacer pulls
+
+
+
+
+
+
+
+Establecer rama main como la principal:
+
+$ git branch -m main
+
+para traer los datos del repositorio y subir los que tenemos:
+
+$ git pull origin main
+
+$ git config pull.rebase false
+
+$ git pull origin main --allow-unrelated-histories
+
+$ git push origin main
+
+
+
+
+
 
 
 
