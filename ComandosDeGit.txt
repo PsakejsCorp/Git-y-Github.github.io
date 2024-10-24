@@ -1,0 +1,28 @@
+$ git init
+
+Inicializa el repositorio en Git
+
+$ git add ComandosDeGit.txt
+
+Se agrega el archivo a la area de espera para ser subido al repositorio
+
+$ git add .
+
+Se agregan todos los archivos a la area de espera para ser subidos al repositorio
+
+$ git commit -m "Mensaje"
+
+Sube los archivos al repositorio
+
+$ git status
+
+Me permite saber que archivos estan en el area de espera
+
+$ git show
+
+Mostrara todos los cambios que hemos hecho
+
+$ git log ComandosDeGit.txt
+
+Ver historia de un archivo
+                                                                                                                                                                                                                                                                                                                                                                                       
