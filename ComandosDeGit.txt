@@ -86,7 +86,7 @@ $ git config --global user.email "Tu correo"
 
 Sirve para cambiar la configuración del correo a nivel global
 
-esc + Shift + zz (para salir de comandos de bean tambien fuerza el envio de los commit que no llevan un mensaje)
+esc + Shift + zz (para salir de comandos de vim tambien fuerza el envio de los commit que no llevan un mensaje)
 Q Me permite salir de comandos cuando lo mostrado es muy largo
 
 
@@ -233,6 +233,8 @@ eval $(ssh-agent -s)
 Agregamos la llave privada a nuestro sistema o servidor:
 
 ssh-add ~/.ssh/id_rsa
+
+
 
 
 
