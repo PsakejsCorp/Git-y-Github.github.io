@@ -26,5 +26,17 @@ $ git log ComandosDeGit.txt
 
 Ver historia de un archivo
 
+code 
+
+Abre el VS(Visual Studio Code)
+
+$ git rm historia.txt
+
+Se quita el archivo de la sala de espera
+
+git rm --cached historia.txt 
+
+se elimina el cache del archivo de la sala de espera
+
 
                                                                                                                                                                                                                                                                                                                                                                                        
