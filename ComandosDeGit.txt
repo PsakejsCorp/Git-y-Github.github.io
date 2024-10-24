@@ -44,6 +44,18 @@ $ git log --stat
 
 Se van a poder ver los cambios especificos que se hicieron en cuales archivos a partir de un commit
 
+$ git log --all --graph
+
+Muestra como han funcionado las ramas
+
+$ git log --all --graph --decorate --oneline
+
+Muestra todas las ramas del repositorio de una manera mucho más resumida
+
+alias jamon "$ git log --all --graph --decorate --oneline"
+
+se le pone un alias al comando para que sea más sencillo y rapido de escribir
+
 code 
 
 Abre el VS(Visual Studio Code)
@@ -268,6 +280,21 @@ $ git pull origin main --allow-unrelated-histories
 
 $ git push origin main
 
+
+
+Poner tags a los commits:
+
+git tag -a v=0.1 -m "Primeras clases" numerosdelcommit
+
+Crea al tag para un commit especifico
+
+git tag
+
+Muestra una lista con todos los tags
+
+git show-ref --tags
+
+Muestra los tags y el commit al que estan relacionados
 
 
 
