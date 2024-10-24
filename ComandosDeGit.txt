@@ -44,11 +44,17 @@ Abre el VS(Visual Studio Code)
 
 $ git rm historia.txt
 
-Se quita el archivo de la sala de espera
+Se quita el archivo de git de stagging
 
-git rm --cached historia.txt 
+$ git rm --cached historia.txt 
 
-se elimina el cache del archivo de la sala de espera
+se elimina el cache del archivo de la sala de espera pero se mantiene en el disco duro
+
+$ git rm --force
+
+Elimina el archivo de git y del disco duro puede recuperarse por versiones anteriores
+
+
 
 
 
@@ -103,11 +109,53 @@ trae la versión actual del archivo que se encuentre en el repositorio o en el m
 
 $ git reset versionanterior --hard
 
-Sirve para volver TODO a una versión anterior del repositorio
+Sirve para volver TODO a una versión anterior del repositorio (Se pierde el actual)
+
+$ git reset versionanterior --mixed
+
+Borra todo, exactamente todo, de los commits y del area de stagging
 
 $ git reset versionanterior --soft
 
 Sirve para volver a una versión anterior del repositorio pero los cambios que esten en la sala de espera seguiran ahí
+
+$ git reset HEAD
+
+Saca los archivos del area de stagging.
+
+
+Repositorio Remoto:
+
+$ git clone url
+
+Con el link del repositorio de GitHub se trae una copia del master y de los Directorios
+
+$ git push
+
+Se envian todos los cambios, commits que se encuentran almacenados en git de forma local al repositorio Remoto
+
+$ git fetch
+
+trae los cambios del repositorio remoto y los almacena en el repositorio local, pero no trae los archivos
+
+$ git merge
+
+combina los archivos actuales que tengo con los cambios traidos del repositorio remoto
+
+$ git pull
+
+Combinación de fetch y merge
+
+
+
+
+
+
+
+
+
+
+
 
 
 
