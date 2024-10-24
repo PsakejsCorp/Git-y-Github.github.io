@@ -136,7 +136,7 @@ $ git clone url
 
 Con el link del repositorio de GitHub se trae una copia del master y de los Directorios
 
-$ git push
+$ git push origin
 
 Se envian todos los cambios, commits que se encuentran almacenados en git de forma local al repositorio Remoto
 
@@ -148,7 +148,7 @@ $ git merge
 
 combina los archivos actuales que tengo con los cambios traidos del repositorio remoto
 
-$ git pull
+$ git pull origin
 
 Combinación de fetch y merge
 
@@ -233,6 +233,43 @@ eval $(ssh-agent -s)
 Agregamos la llave privada a nuestro sistema o servidor:
 
 ssh-add ~/.ssh/id_rsa
+
+
+Como relacionar nuestras credenciales de SSH con nuestro GitHub?
+
+Nos dirigimos a nuestro perfil y vamos a settings, alli en el aprtado de SSH keys daremos en crear una nueva,
+ahi pegaremos nuestra llave publica y listo
+
+$ git remote add origin url
+
+Ponemos la url de un repositorio para linkearlo a nuestra carpeta
+
+$ git remote -v 
+
+nos muestra hacia donde podemos hacer push y hacia donde podemos hacer pulls
+
+
+
+
+
+
+
+Establecer rama main como la principal:
+
+$ git branch -m main
+
+para traer los datos del repositorio y subir los que tenemos:
+
+$ git pull origin main
+
+$ git config pull.rebase false
+
+$ git pull origin main --allow-unrelated-histories
+
+$ git push origin main
+
+
+
 
 
 
