@@ -1,3 +1,6 @@
+- = Comando con abreviación de palabra
+-- = Comando con palabra completa
+
 $ git init
 
 Inicializa el repositorio en Git
@@ -37,6 +40,31 @@ Se quita el archivo de la sala de espera
 git rm --cached historia.txt 
 
 se elimina el cache del archivo de la sala de espera
+
+
+
+Configurar quienes somos:
+
+$ git config 
+
+Lista de todas las configuraciones que tiene git
+
+$ git config --List
+
+Configuración por defecto de tu git y las cosas que le faltan
+
+$ git config --list --show-origin
+
+Muestra en donde estan las configuraciones guardadas (Directorios)
+
+$ git config --global user.name "Tu Nombre"
+
+Sirve para cambiar la configuración del nombre a nivel global
+
+$ git config --global user.email "Tu correo"
+
+Sirve para cambiar la configuración del correo a nivel global
+
 
 
                                                                                                                                                                                                                                                                                                                                                                                        
