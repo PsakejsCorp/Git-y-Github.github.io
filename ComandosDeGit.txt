@@ -333,4 +333,7 @@ gitk
 
 Abre una aplicación donde se pueden ver las branchs y todos los commits
 
+$ git push origin nombrebranch (desde el branch)
+
+Manda a GitHub el branch o rama 
 
