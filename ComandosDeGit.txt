@@ -69,6 +69,25 @@ $ git config --global user.email "Tu correo"
 
 Sirve para cambiar la configuración del correo a nivel global
 
+esc + Shift + zz (para salir de comandos de vimp tambien fuerza el envio de los commit que no llevan un mensaje)
+
+
+
+$ git diff commitA commitB (recomendación: la versión más vieja va primero que la más nueva)
+
+Comparar versiones del archivo(Primero es recomendable hacer el log debido a que el nombre del commit es la combinación de letras y numeros que aparece alli)
+
+
+
+Cunado no se agrega un archivo a la zona de espera(Staging) con el $ git add  ese archivo queda sin rastrear
+al usar el $ git add el archivo queda rastreado
+
+traer un cambio que esta en el repositorio:
+
+$ git checkout
+
+Traes los ultimos cambios o los que quieras de ciertos archivos
+
 
 
 
