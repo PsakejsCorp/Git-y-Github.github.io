@@ -308,6 +308,22 @@ $ git push origin --tags
 Envia a GitHub los tags que creamos
 
 
+$ git tag -d nombreTag
+
+Elimina un tag del entorno local
+
+$ git push origin :refs/tags/dormido
+
+Lo elimina de GitHub tambien
+
+
+
+Enviar diferentes branches al GitHUb:
+
+
+
+
+
 
 
 
