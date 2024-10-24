@@ -206,7 +206,15 @@ Anula el merge y de vuelbve todo a como estaba antes
 
 Resolución de conflictos al hacer un merge:
 
-Al unificar los cambios si hay un error se debe decidir cual dejar y cual no.
+Al unificar los cambios si hay un error se debe decidir cual parte del codigo dejar y cual no.
+
+
+
+
+
+Llaves publicas y llaves privadas (cifrado asimetrico de un solo camino):
+
+
 
 
 
