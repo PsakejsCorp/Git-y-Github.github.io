@@ -320,10 +320,3 @@ Lo elimina de GitHub tambien
 
 Enviar diferentes branches al GitHUb:
 
-
-
-
-
-
-
-
