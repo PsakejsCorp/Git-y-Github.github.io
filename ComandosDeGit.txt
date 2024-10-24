@@ -25,4 +25,6 @@ Mostrara todos los cambios que hemos hecho
 $ git log ComandosDeGit.txt
 
 Ver historia de un archivo
+
+
                                                                                                                                                                                                                                                                                                                                                                                        
