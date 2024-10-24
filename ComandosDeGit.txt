@@ -337,3 +337,15 @@ $ git push origin nombrebranch (desde el branch)
 
 Manda a GitHub el branch o rama 
 
+$ git branch header
+
+Crea un nuevo branch
+
+$ git branch footer
+
+crea un nuevo branch
+
+
+
+
+
