@@ -164,6 +164,14 @@ $ git checkout nombrerama
 
 cambiar a la nueva rama
 
+$ git merge nombrarama (se hace desde la rama principal) "mensaje opcional"
+
+Une los cambios de una rama con otra
+
+
+
+
+
 
 
 
