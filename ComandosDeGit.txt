@@ -173,6 +173,9 @@ Une los cambios de una rama con otra
 
 Resolución de conflictos al hacer un merge:
 
+Al unificar los cambios si hay un error se debe decidir cual dejar y cual no.
+
+
 
 
 
