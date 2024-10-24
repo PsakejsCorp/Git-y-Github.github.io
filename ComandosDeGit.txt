@@ -17,6 +17,11 @@ $ git commit -m "Mensaje"
 
 Sube los archivos al repositorio
 
+$ git commit -am 
+
+Añade los cambios al commit es la combinación del git add . y el commit clasico, no funciona si los archivos nunca han sido rastreados con un add normal
+
+
 $ git status
 
 Me permite saber que archivos estan en el area de espera
@@ -145,6 +150,11 @@ combina los archivos actuales que tengo con los cambios traidos del repositorio 
 $ git pull
 
 Combinación de fetch y merge
+
+
+Ramas o branches de Git:
+
+
 
 
 
