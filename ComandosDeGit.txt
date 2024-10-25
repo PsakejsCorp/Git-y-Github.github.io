@@ -409,6 +409,9 @@ Sirve para contarle al mundo para que es un repositorio
 
 Se le pueden agregar markdowns y hmtl al mismo tiempo
 
+Se puede edita desde el VS o en MEditor.md 
+
+
 
 
 
