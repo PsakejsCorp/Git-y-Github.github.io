@@ -435,7 +435,7 @@ Sitio web publico con GitHub pages:
 9. Extra (Crear una pagina personalizada de error 404 para GitHub Pages):https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
 
 
-
+master2
 
 Rebase en Git(Muy mala practica con repositorios remotos, se recomienda hacerlo unicamente en locales):
 
