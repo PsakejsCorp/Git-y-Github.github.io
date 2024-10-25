@@ -385,4 +385,14 @@ Se llaman los cambios al fork del repositorio original
 
 Todo esto se puede hacer directamente desde gitHub
 
+Hacer un deployment a un servidor:
+
+
+Tener un servidor local desde npm:
+
+npm install --global http-server
+
+http-server
+
+
 
