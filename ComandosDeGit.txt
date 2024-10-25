@@ -432,6 +432,8 @@ Sitio web publico con GitHub pages:
 
 8.Ahora nos dirigimos a la pagina con nuestro nombre asi: AlejandroPR23.github.io y listo
 
+9. Extra (Crear una pagina personalizada de error 404 para GitHub Pages):https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
+
 
 
 
