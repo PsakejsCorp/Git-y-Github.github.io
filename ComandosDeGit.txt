@@ -403,7 +403,7 @@ Allí pondremos todos los tipos de archivos que git debería ignorar por ejemplo
 *.jpeg (Significa que todos los jpeg seran ignorados)
 
 
-Readme.md es una excelente practica
+Readme.md es una excelente practica:
 
 Sirve para contarle al mundo para que es un repositorio
 
@@ -411,13 +411,33 @@ Se le pueden agregar markdowns y hmtl al mismo tiempo
 
 Se puede edita desde el VS o en MEditor.md 
 
-Commit con co-autor:
 
-$ git commit -m "Refactor usability tests.
->
->
-Co-authored-by: NAME <NAME@EXAMPLE.COM>
-Co-authored-by: ANOTHER-NAME <ANOTHER-NAME@EXAMPLE.COM>"
+
+
+Sitio web publico con GitHub pages:
+
+1.Se abre pages.github.com
+
+2.Creas un nuevo repositorio que tenga tu nombre de usuario
+
+3. Vas al home en el pc con cd ~
+
+4. $ git clone urlrepositorio
+
+5.Crear un nuevo archivo index.html
+
+6.Hacer el push al repositorio
+
+7.Vamos al repositorio settings, pages y en pages elegimos el branch del cual desplegaremos el index.html
+
+8.Ahora nos dirigimos a la pagina con nuestro nombre asi: AlejandroPR23.github.io y listo
+
+
+
+
+
+
+
 
 
 
