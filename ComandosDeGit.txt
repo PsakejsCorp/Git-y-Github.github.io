@@ -351,6 +351,4 @@ $git pull origin nombrerama
 Se trae del repositorio una rama especifica
 
 
-
-
-
+En los entornos reales de programación los merge con el main son revisados y deben pasar por un proceso de validación
