@@ -370,5 +370,10 @@ luego de hacer los cambios requeridos en caso nos lo pidan podemos volver a hace
 
 alli podran se aceptados o denegados nuevamente
 
+Hacer un pull desde un fork:
+
+$ git remote add upstream https://github.com/AlejandroPR23/Curso-Profesional-de-Git-y-Github.git
+
 creando un Fork:
 Fork es tomar una copia del estado actual del proyecto y clonarlo
+
