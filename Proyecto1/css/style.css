@@ -1,13 +1,13 @@
 body{
     text-align: center;
-    color: rgb(204, 247, 247);
+    color: rgb(18, 63, 63);
     font-family: cursive;
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
-#container{
+.container{
     width: 70%;
     padding: 1em;
     text-align: left;
@@ -15,15 +15,20 @@ body{
     margin: 0 auto;
 }
 
-#container h1{
+.container h1{
     font-size: 20px;
 }
 
+#logo{
+width: 20px;
+vertical-align: middle;
+}
+
 .cabecera{
-    background: blue;
-    color: white;
+    background:url(../../imagenes/dragon.png) 10px 10px;
+    color: rgb(216, 32, 32);
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
     font-weight: bold;
 }
 
