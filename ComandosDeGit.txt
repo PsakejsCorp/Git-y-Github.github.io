@@ -443,7 +443,9 @@ Rebase en Git(Muy mala practica con repositorios remotos, se recomienda hacerlo 
 
 1. Se crea una nueva rama
 
-2.
+2. Se hacen los cambios que queramos
+
+3.Estando en la rama creada ejecutamos: $ git rebase main
 
 
 
