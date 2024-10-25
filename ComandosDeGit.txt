@@ -411,6 +411,14 @@ Se le pueden agregar markdowns y hmtl al mismo tiempo
 
 Se puede edita desde el VS o en MEditor.md 
 
+Commit con co-autor:
+
+$ git commit -m "Refactor usability tests.
+>
+>
+Co-authored-by: NAME <NAME@EXAMPLE.COM>
+Co-authored-by: ANOTHER-NAME <ANOTHER-NAME@EXAMPLE.COM>"
+
 
 
 
