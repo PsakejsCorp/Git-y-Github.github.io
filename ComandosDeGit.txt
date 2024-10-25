@@ -393,5 +393,16 @@ http-server
 
 inicia el server
 
+Ignorar archivos en el repositorio con .gitignore (Por ejemplo iamgenes ya que los binarios para GitHub son muy extraños):
+
+1. Nos dirigimos a nuestra carpeta y creamos un archivo llamado .gitignore
+
+Allí pondremos todos los tipos de archivos que git debería ignorar por ejemplo:
+
+*.jpg (Significa que todos los jpg seran ignorados)
+*.jpeg (Significa que todos los jpeg seran ignorados)
+
+
+
 
 
