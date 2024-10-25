@@ -437,6 +437,10 @@ Sitio web publico con GitHub pages:
 
 
 
+Rebase en Git(Muy mala practica con repositorios remotos, se recomienda hacerlo unicamente en locales):
+
+
+
 
 
 
