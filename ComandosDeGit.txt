@@ -371,4 +371,18 @@ luego de hacer los cambios requeridos en caso nos lo pidan podemos volver a hace
 alli podran se aceptados o denegados nuevamente
 
 creando un Fork:
-Fork es tomar una copia del estado actual del proyecto y clonarlo
+Fork es tomar una copia del estado actual del proyecto y clonarloarlo
+
+Hacer un pull desde un fork:
+
+$ git remote add upstream https://github.com/AlejandroPR23/Curso-Profesional-de-Git-y-Github.Git
+
+Agrega al repositorio original a uno remoto para poder hacer pulls y se le ponde un nombre en este caso "upstream"
+
+$ git pull upstream origin
+
+Se llaman los cambios al fork del repositorio original
+
+Todo esto se puede hacer directamente desde gitHub
+
+
