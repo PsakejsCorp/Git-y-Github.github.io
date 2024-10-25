@@ -418,7 +418,7 @@ Sitio web publico con GitHub pages:
 
 1.Se abre pages.github.com
 
-2.Creas un nuevo repositorio que tenga tu nombre de usuario
+2.Creas un nuevo repositorio que tenga tu nombre de usuario.github.io
 
 3. Vas al home en el pc con cd ~
 
