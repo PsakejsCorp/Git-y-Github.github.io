@@ -436,9 +436,14 @@ Sitio web publico con GitHub pages:
 
 
 master2
+Experimento 2
 Experimento 1
 
 Rebase en Git(Muy mala practica con repositorios remotos, se recomienda hacerlo unicamente en locales):
+
+1. Se crea una nueva rama
+
+2.
 
 
 
