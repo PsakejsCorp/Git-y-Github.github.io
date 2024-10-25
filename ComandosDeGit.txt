@@ -351,6 +351,17 @@ $git pull origin nombrerama
 Se trae del repositorio una rama especifica
 
 
+En los entornos reales de programación los merge con el main son revisados y deben pasar por un proceso de validación
 
 
+Hacer pull-request:
 
+Nos dirigimos a pull-request y damos en new pull-request
+
+alli escogemos la rama que queremos comparar con nuestra rama main
+
+tambien podemos agregar a alguien más para que nos ayude a revisarla
+
+Desde la vista de quien lo revisa se puede hacer un review changes
+
+Donde puede aprobar el merge o pedir cambios o simplemente poner un comentario
