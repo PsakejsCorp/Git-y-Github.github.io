@@ -346,6 +346,11 @@ $ git branch footer
 crea un nuevo branch
 
 
+$git pull origin nombrerama
+
+Se trae del repositorio una rama especifica
+
+
 
 
 
