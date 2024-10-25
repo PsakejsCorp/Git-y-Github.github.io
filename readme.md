@@ -1,7 +1,7 @@
 
 # Práctica de Git y GitHub Profesional
 
-Este repositorio está diseñado como un espacio de práctica personal para dominar Git y GitHub. Aquí encontrarás ejercicios, ejemplos y proyectos que te ayudarán a familiarizarte con las funcionalidades de estas herramientas esenciales para el desarrollo de software y la colaboración en equipo.
+Este repositorio está diseñado como un espacio de práctica personal para dominar Git y GitHub.
 
 ## Objetivos
 
