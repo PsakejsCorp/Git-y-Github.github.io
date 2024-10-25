@@ -354,9 +354,9 @@ Se trae del repositorio una rama especifica
 En los entornos reales de programación los merge con el main son revisados y deben pasar por un proceso de validación
 
 
-Hacer pull-request:
+Hacer pull-request despues de hacer un merge desde otra rama al main:
 
-Nos dirigimos a pull-request y damos en new pull-request
+Nos dirigimos a pull-request y damos en new pull-request o dmos directamente en el cartel que nos aparecera al entrar al repositorio
 
 alli escogemos la rama que queremos comparar con nuestra rama main
 
@@ -365,3 +365,8 @@ tambien podemos agregar a alguien más para que nos ayude a revisarla
 Desde la vista de quien lo revisa se puede hacer un review changes
 
 Donde puede aprobar el merge o pedir cambios o simplemente poner un comentario
+
+luego de hacer los cambios requeridos en caso nos lo pidan podemos volver a hacer el push y volver enviar los cambios a una nueva revisión
+
+alli podran se aceptados o denegados nuevamente
+
