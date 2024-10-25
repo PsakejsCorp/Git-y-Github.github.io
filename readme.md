@@ -33,6 +33,3 @@ Si deseas contribuir con ejemplos, ejercicios o mejoras, ¡estás más que bienv
 3. Realiza tus cambios y haz un commit (`git commit -m 'Agregué algo'`).
 4. Envía un pull request.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
