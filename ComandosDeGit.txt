@@ -403,6 +403,14 @@ Allí pondremos todos los tipos de archivos que git debería ignorar por ejemplo
 *.jpeg (Significa que todos los jpeg seran ignorados)
 
 
+Readme.md es una excelente practica
+
+Sirve para contarle al mundo para que es un repositorio
+
+Se le pueden agregar markdowns y hmtl al mismo tiempo
+
+
+
 
 
 
