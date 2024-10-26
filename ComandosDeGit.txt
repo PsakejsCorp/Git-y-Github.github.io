@@ -509,6 +509,11 @@ Elimina los archivos (Usar en caso el anterior no funcione)
 
 
 
+Git cherry-pick
+
+
+
+
 
 
 
