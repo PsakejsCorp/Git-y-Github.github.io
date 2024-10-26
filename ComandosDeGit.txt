@@ -524,6 +524,10 @@ $ git cherry-pick nombrecommitdelaotraram -e "Cambio"
 Cambiamos el nombre del commit
 
 
+Git Reset y Reflog
+
+
+
 
 
 
