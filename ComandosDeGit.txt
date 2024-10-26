@@ -1,6 +1,10 @@
 - = Comando con abreviación de palabra
 -- = Comando con palabra completa
 
+$ git config --global init.defaultBranch main
+
+Hace que de ahora en adelante cada vez que se inicialice un repositorio este tenga como rama principal la main
+
 $ git init
 
 Inicializa el repositorio en Git
