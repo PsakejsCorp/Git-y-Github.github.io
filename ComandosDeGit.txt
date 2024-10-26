@@ -272,6 +272,12 @@ Agregamos la llave privada a nuestro sistema o servidor:
 
 ssh-add ~/.ssh/id_rsa
 
+$ssh -T git@github.com
+
+Establecer una conexión ssh con github para ver que todo este fluyendo con normalidad
+
+
+
 
 Como relacionar nuestras credenciales de SSH con nuestro GitHub?
 
