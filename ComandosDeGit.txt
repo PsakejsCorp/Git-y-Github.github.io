@@ -312,7 +312,7 @@ Poner tags a los commits:
 
 $ git tag nombretag
 
-Crea un nombre para el commit actual que se haga
+Crea un tag para la versión actual en la que se encuentre en proyecto
 
 $ git tag -a v=0.1 -m "Primeras clases" numerosdelcommit
 
