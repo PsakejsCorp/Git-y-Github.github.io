@@ -123,6 +123,10 @@ $ git checkout
 
 Traes los ultimos cambios o los que quieras de ciertos archivos
 
+$ git checkout -b nombrerama
+
+Crea una nueva branche y pasa directamente a ella
+
 $ git checkout versioncommit Nombrearchivo
 
 Traes los cambios que quieras de un archivo especifico
