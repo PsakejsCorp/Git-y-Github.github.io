@@ -562,6 +562,7 @@ Crear un issue template:
 2. Dentro de .github creamos otra carpeta llamada ISSUE_TEMPLATE
 3. Creamos un archivo llamado bug_report.md
 4. Ponemos una plantilla para ingresar errores
+5. En GitHub vamos al apartado issue en nuestro repositorio y ahí aparecera la plantilla.
 
 
 
