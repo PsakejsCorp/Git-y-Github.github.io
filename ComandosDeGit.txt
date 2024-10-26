@@ -123,6 +123,14 @@ $ git checkout
 
 Traes los ultimos cambios o los que quieras de ciertos archivos
 
+$ git checkout nombrerama
+
+Cambiar de una rama a otra
+
+$ git switch nombrerama
+
+Cambiar de una rama a otra
+
 $ git checkout -b nombrerama
 
 Crea una nueva branche y pasa directamente a ella
@@ -134,6 +142,10 @@ Traes los cambios que quieras de un archivo especifico
 $ git checkout master Nombrearchivo
 
 trae la versión actual del archivo que se encuentre en el repositorio o en el master
+
+$ git revert commit numerosdelcommit
+
+revierte los cambios de un commit anterior, y crea un nuevo commit donde se dice que se hizo una reversión a un anterior commit
 
 $ git reset versionanterior --hard
 
