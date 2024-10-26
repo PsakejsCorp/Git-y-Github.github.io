@@ -449,6 +449,50 @@ Rebase en Git(Muy mala practica con repositorios remotos, se recomienda hacerlo 
 
 
 
+Git stash (Imaginemos cuando queremos cambiar de rama y no queremos hacer commit a nuestros cambios, pero los queremos guardar, eso se hace con stash)
+
+$ git stash
+
+Guardar los cambios del archivo actual temporalmente en un lugar que no es visible
+
+$ git stash -u 
+
+Guardar todos los cambios de todos los archivos
+
+$ git stash save "mensaje"
+
+Guardar los cambios temporalmente con un nombre especifico
+
+$ git stash list
+
+Muestra la lista de cambios que estan guardados temporalmente
+
+$ git branch nombrerama stash@(<num_stash>)
+
+Crear un rama y aplicar el stash 
+
+$ git stash pop  
+
+Libera por decir de alguna manera de nuevo los cambios que habiamos hecho para ahora si hacer el commit (Pueden ser liberados en cualquier rama si asi lo queremos)
+
+$ git stash pop stash@(<num_stash>)
+
+Libera un cambio especifico
+
+$ git stash drop
+
+elimina el ultimo cambio agregado a la lista de cambios que se guardan temporalmente
+
+$ git stash drop stash@(<num_stash>)
+
+elimina un stash especifico
+
+$ git stash clear
+
+elimina toda la lista de stash
+
+
+
 
 
 
