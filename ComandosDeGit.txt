@@ -310,15 +310,19 @@ $ git push origin main
 
 Poner tags a los commits:
 
-git tag -a v=0.1 -m "Primeras clases" numerosdelcommit
+$ git tag nombretag
+
+Crea un nombre para el commit actual que se haga
+
+$ git tag -a v=0.1 -m "Primeras clases" numerosdelcommit
 
 Crea al tag para un commit especifico
 
-git tag
+$ git tag
 
 Muestra una lista con todos los tags
 
-git show-ref --tags
+$ git show-ref --tags
 
 Muestra los tags y el commit al que estan relacionados
 
