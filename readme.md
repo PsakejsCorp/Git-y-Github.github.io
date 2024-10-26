@@ -15,6 +15,7 @@ Este repositorio está diseñado como un espacio de práctica personal para domi
 - **Ejercicios Básicos**: Comandos fundamentales de Git.
 - **Colaboración**: Simulaciones de trabajo en equipo con ramas y pull requests.
 - **Recursos Adicionales**: Enlaces a documentación y tutoriales útiles.
+- Ballena azul
 
 ## Cómo Usar Este Repositorio
 
