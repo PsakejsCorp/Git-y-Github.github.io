@@ -39,6 +39,8 @@ Crea un directorio
 
 touch vacio.txt
 
+nano text.txt (Abre una terminal de GNU donde directamente se puede escribir el interior del archivo en caso no exista lo crea)
+
 permite crear un archivo vacio
 
 cat vacio.txt
