@@ -492,6 +492,22 @@ $ git stash clear
 elimina toda la lista de stash
 
 
+Git clean (Eliminar archivos que no sirven o que no deberian estar)
+
+$ git clean --dry-run     (Debe hacerse primero obligatoriamente)
+
+Revisar que archivos no tienen un seguimiento y van a ser eliminados a futuro
+
+$ git clean
+
+Elimina los archivos que nos son mostrados por el comando anterior 
+
+$ git clean -f 
+
+Elimina los archivos (Usar en caso el anterior no funcione)
+
+
+
 
 
 
