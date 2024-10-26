@@ -511,7 +511,7 @@ Elimina los archivos (Usar en caso el anterior no funcione)
 
 Git cherry-pick (Trae cambios desde otra mara a la principal)
 
-$ git cherry-pick
+$ git cherry-pick nombrecommitdelaotraram
 
 
 
