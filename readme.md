@@ -16,6 +16,7 @@ Este repositorio está diseñado como un espacio de práctica personal para domi
 - **Colaboración**: Simulaciones de trabajo en equipo con ramas y pull requests.
 - **Recursos Adicionales**: Enlaces a documentación y tutoriales útiles.
 - Ballena azul ejemplos de ejercicios
+- Todas las edades
 
 ## Cómo Usar Este Repositorio
 
