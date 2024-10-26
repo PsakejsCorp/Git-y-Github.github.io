@@ -509,7 +509,7 @@ Elimina los archivos (Usar en caso el anterior no funcione)
 
 
 
-Git cherry-pick (Trae cambios desde otra mara a la principal)
+Git cherry-pick (Trae cambios desde otra mara a la principal) Es mala practica no usar demasiado
 
 $ git cherry-pick nombrecommitdelaotraram
 
@@ -522,6 +522,7 @@ Traemos los cambios del commit pero sin que se ejecute el commit
 $ git cherry-pick nombrecommitdelaotraram -e "Cambio"
 
 Cambiamos el nombre del commit
+
 
 
 
