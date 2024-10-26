@@ -556,6 +556,18 @@ $ git cherry-pick nombrecommitdelaotraram -e "Cambio"
 Cambiamos el nombre del commit
 
 
+Crear un issue template: 
+
+1. Creamos una carpeta .github en nuestro repo local
+2. Dentro de .github creamos otra carpeta llamada ISSUE_TEMPLATE
+3. Creamos un archivo llamado bug_report.md
+4. Ponemos una plantilla para ingresar errores
+
+
+
+
+
+
 Git Reset y Reflog
 
 
