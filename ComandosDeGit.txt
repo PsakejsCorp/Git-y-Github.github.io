@@ -613,12 +613,24 @@ GitHub Gist(Manera sencilla de compartir fragmentos de codigo que no necesitan e
 5. Podemos editar nuestro fragmento de codigo directamente en la página y eliminarlo tambien si lo queremos
 
 
-
-Automatizar GitHub Projects
-
+Automatizar GitHub Projects:
 1. En GitHub projects nos dirigimos a los tres puntos al lado de insight y elegimos workflows
 2. Allí podremos elegir varias secciones que nos facilitan la automatización en la gestión del proyecto
 3. A la hora de hace un pull request podemos poner la palabra closes #(elegir tarea puesta)
+
+
+GitHub Codespaces(Ambientes de trabajo en la nube):
+1. Nos dirigimos al boton donde podemos crear un repositorio y elegimos la opción de crear un Codespaces o directamente nos dirigmos a un repositorio y apretamos la " , " 
+2. Allí Seleccionaremos el repositorio que deseemos utilizar, la rama principal, nuestra región horaria, y el tipo de maquina en la nube
+3. Ahora podremos usar sin problema nuestro Codespaces
+4. Una vez concluyamos nuestra actividad en el codespace es importante que lo eliminemos
+
+
+Configurar entornos de desarrollo avanzados en  GitHub Codespaces:
+1. Se pueden utilizar plantillas de codespaces que facilitaran el trabajo segun lo que elijamos(react, django, python, etc..)
+
+
+
 
 
 Git Reset y Reflog
