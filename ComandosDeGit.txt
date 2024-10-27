@@ -456,19 +456,17 @@ Sitio web publico con GitHub pages:
 
 2.Creas un nuevo repositorio que tenga tu nombre de usuario.github.io
 
-3. Vas al home en el pc con cd ~
+3. $ git clone urlrepositorio
 
-4. $ git clone urlrepositorio
+4. Crear un nuevo archivo index.html y cambiar el nombre de la carpeta principal a docs
 
-5.Crear un nuevo archivo index.html
+5.Hacer el push al repositorio
 
-6.Hacer el push al repositorio
+6.Vamos al repositorio settings, pages y en pages elegimos el branch del cual desplegaremos el index.html
 
-7.Vamos al repositorio settings, pages y en pages elegimos el branch del cual desplegaremos el index.html
+7.Ahora nos dirigimos a la pagina con nuestro nombre asi: AlejandroPR23.github.io y listo
 
-8.Ahora nos dirigimos a la pagina con nuestro nombre asi: AlejandroPR23.github.io y listo
-
-9. Extra (Crear una pagina personalizada de error 404 para GitHub Pages):https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
+8. Extra (Crear una pagina personalizada de error 404 para GitHub Pages):https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site
 
 
 Rebase en Git(Muy mala practica con repositorios remotos, se recomienda hacerlo unicamente en locales):
