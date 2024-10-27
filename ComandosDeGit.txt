@@ -369,6 +369,10 @@ $ git push origin nombrebranch (desde el branch)
 
 Manda a GitHub el branch o rama 
 
+$ git push -u origin nombrebranch
+
+Sube los commits de la rama y la rama a GitHub
+
 $ git branch header
 
 Crea un nuevo branch
@@ -565,9 +569,37 @@ Crear un issue template:
 5. En GitHub vamos al apartado issue en nuestro repositorio y ahí aparecera la plantilla.
 6. Podremos agregar plantillas para los otro tipos de errores tambien.
 
+GitHub Projects
+
+1. Ingresar a GitHub.com
+2. Dirijirnos al modulo de proyectos
+3. Al dar en crear se nos mostrarán una gran cantidad de plantillas para aplicarlas a nuestro proyecto
+4. Dependiendo la plantilla que elijamos podremos ir organizando cada tarea y asignadola a alguien
+5. Vincular proyecto y repositorio:
+6. al lado de draft daras en los 3 puntos
+7. Le damos en convertir en issue y elegimos un proyecto
+
+Hacer archivos .md más limpios y mucho mejores:
+
+1. Instala la extensión de markdownlint
+2. Desde el icono de cuadro con lupa en el lado superior derecho se puede ver la vista previa de los MD en VS
+
+
+Herramienta para hacer diagramas de trabajo de ramas en GitHub:
+1. Ir a Mermaid
+2. Dirigirse a mermaid live
+3. Ingresa gitGraph:
+4. Palabras que pueden usarse para hacer el diagrama commit, branch develop, checkout develop, checkout main, merge develop, commit
 
 
 
+
+
+Automatizar GitHub Projects
+
+1. En GitHub projects nos dirigimos a los tres puntos al lado de insight y elegimos workflows
+2. Allí podremos elegir varias secciones que nos facilitan la automatización en la gestión del proyecto
+3. A la hora de hace un pull request podemos poner la palabra closes #(elegir tarea puesta)
 
 
 Git Reset y Reflog

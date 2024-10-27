@@ -11,6 +11,7 @@ Una descripción clara y concisa del bug.
 
 **Pasos para reproducir**
 Pasos para reproducir el comportamiento:
+
 1. Ir a '...'
 2. Hacer clic en '...'
 3. Desplazarse hasta '...'
@@ -23,9 +24,10 @@ Una descripción clara de lo que esperabas que sucediera.
 Si es posible, agrega capturas de pantalla para ayudarnos a comprender el problema.
 
 **Información del entorno:**
- - Sistema operativo: [e.g. Windows, macOS, Linux]
- - Navegador y versión: [e.g. Chrome 87, Firefox 78]
- - Versión de la aplicación: [e.g. v1.0.3]
+
+- Sistema operativo: [e.g. Windows, macOS, Linux]
+- Navegador y versión: [e.g. Chrome 87, Firefox 78]
+- Versión de la aplicación: [e.g. v1.0.3]
 
 **Información adicional**
 Cualquier otra información relevante para el problema, como configuraciones, cambios recientes, etc.
