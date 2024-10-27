@@ -1,3 +1,9 @@
+---
+name: "🐛 Bug Report"
+about: "Reportar un error para ayudarnos a mejorar el proyecto."
+labels: bug
+---
+
 # Bug Report 🐞
 
 **Descripción del bug**
