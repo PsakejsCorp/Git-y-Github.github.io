@@ -19,9 +19,11 @@ Este repositorio está diseñado como un espacio de práctica personal para domi
 ## Cómo Usar Este Repositorio
 
 1. **Clona el repositorio** a tu máquina local:
+
    ```bash
    git clone https://github.com/tu_usuario/nombre_del_repositorio.git
    ```
+
 2. **Practica** cada uno de los conceptos, experimentando con comandos y funcionalidades.
 
 ## Contribuciones
@@ -32,4 +34,3 @@ Si deseas contribuir con ejemplos, ejercicios o mejoras, ¡estás más que bienv
 2. Crea tu rama (`git checkout -b mi-contribucion`).
 3. Realiza tus cambios y haz un commit (`git commit -m 'Agregué algo'`).
 4. Envía un pull request.
-
