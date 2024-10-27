@@ -592,6 +592,27 @@ Herramienta para hacer diagramas de trabajo de ramas en GitHub:
 4. Palabras que pueden usarse para hacer el diagrama commit, branch develop, checkout develop, checkout main, merge develop, commit
 
 
+Personalizar tu GitHub
+1. Crea un repositorio con el nombre de tu usuario
+2. Crea un readme.md
+3. Personaliza el readme y listo
+
+
+GitHub Wikis:
+1. Con wiki podemos generar un nivel de documentación mucho más estructurado de nuestros repositorios
+2. Nos dirigimos a nuestro repositorio y buscamos la opción de wiki
+3. Daremos en crear wiki
+4. Agregaremos más paginas
+5. Crearemos una sidebar
+6. Se creativo
+
+
+GitHub Gist(Manera sencilla de compartir fragmentos de codigo que no necesitan estar ligados a algun repositorio):
+1. Vamos a la pagina gist.github.com
+2. Allí podremos poner nuestro fragmento de codigo con un titulo y si queremos incluir tambien el tipo de archivo y crear un gist
+3. Copiamos la URL de nuestro gist y se la enviamos a nuestro compañero
+4. Ahora podremos tener una charla sobre nuestro gist con nuestro compañero
+5. Podemos editar nuestro fragmento de codigo directamente en la página y eliminarlo tambien si lo queremos
 
 
 
