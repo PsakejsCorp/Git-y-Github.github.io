@@ -579,6 +579,20 @@ GitHub Projects
 6. al lado de draft daras en los 3 puntos
 7. Le damos en convertir en issue y elegimos un proyecto
 
+Hacer archivos .md más limpios y mucho mejores:
+
+1. Instala la extensión de markdownlint
+2. Desde el icono de cuadro con lupa en el lado superior derecho se puede ver la vista previa de los MD en VS
+
+
+
+
+
+Automatizar GitHub Projects
+
+1. En GitHub projects nos dirigimos a los tres puntos al lado de insight y elegimos workflows
+2. Allí podremos elegir varias secciones que nos facilitan la automatización en la gestión del proyecto
+3. A la hora de hace un pull request podemos poner la palabra closes #(elegir tarea puesta)
 
 
 Git Reset y Reflog
