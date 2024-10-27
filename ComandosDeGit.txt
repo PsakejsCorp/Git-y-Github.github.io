@@ -609,6 +609,10 @@ GitHub Wikis:
 
 GitHub Gist(Manera sencilla de compartir fragmentos de codigo que no necesitan estar ligados a algun repositorio):
 1. Vamos a la pagina gist.github.com
+2. Allí podremos poner nuestro fragmento de codigo con un titulo y si queremos incluir tambien el tipo de archivo y crear un gist
+3. Copiamos la URL de nuestro gist y se la enviamos a nuestro compañero
+4. Ahora podremos tener una charla sobre nuestro gist con nuestro compañero
+5. Podemos editar nuestro fragmento de codigo directamente en la página y eliminarlo tambien si lo queremos
 
 
 
