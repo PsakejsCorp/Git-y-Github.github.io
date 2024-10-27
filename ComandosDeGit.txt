@@ -585,6 +585,13 @@ Hacer archivos .md más limpios y mucho mejores:
 2. Desde el icono de cuadro con lupa en el lado superior derecho se puede ver la vista previa de los MD en VS
 
 
+Herramienta para hacer diagramas de trabajo de ramas en GitHub:
+1. Ir a Mermaid
+2. Dirigirse a mermaid live
+3. Ingresa gitGraph:
+4. Palabras que pueden usarse para hacer el diagrama commit, branch develop, checkout develop, checkout main, merge develop, commit
+
+
 
 
 
