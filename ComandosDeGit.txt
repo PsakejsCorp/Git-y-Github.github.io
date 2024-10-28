@@ -567,6 +567,10 @@ Crear un issue template:
 5. En GitHub vamos al apartado issue en nuestro repositorio y ahí aparecera la plantilla.
 6. Podremos agregar plantillas para los otro tipos de errores tambien.
 
+Crear un pull request template:
+1. Vamos a la carpeta .github en nuestro repo local
+2. Creamos un archivo llamado pull_request_template.md
+
 GitHub Projects
 
 1. Ingresar a GitHub.com
@@ -641,6 +645,51 @@ Repositorios privados y el uso de tokens
 4. Damos en generar nuevo, y una vez generado y elegidos los permisos del usuario debemos copiarlo antes de salir de la pagina de lo contrario tendremos que crear otro
 5. Hay otro tipo de tokens los fine-grained los cuales son más detallados su proceso es similar
 6. Al intentar clonar el repo privado en otro pc se nos solicitara una password la cual debe ser el token.
+
+
+Dependabot(Se encarga de actualizar packages):
+1. Vamos a setting o a security dentro de nuestro repositorio
+2. Buscamos la seccion de dependabot y activamos todas las opciones
+3. Nos aparecera un archivo .yml
+4. Alli podremos configurar nuestro dependabot de muchas maneras para que revise packetes especificos, cada cuanto, etc.
+
+
+Gestión de datos sensibles y politicas de seguridad:
+1. Nos dirigimos a ajustes y code security
+2. Vamos a code scannig y Seleccionamos codeQL analysis y lo habilitamos en default
+3. Ahora se nos habilitara el secret scanning
+
+
+Administración de repositorios y organizaciones:
+1. Vamos al boton de crear nuevo y elegimos crear nueva organización
+2. Elegimos nuestro plan
+3. Ponemos los datos de nuestra organización y agregamos posibles participantes
+4. Cuando nuestra organización este creada nos apareceran 6 recuadros con pasos que son recomendables de seguir 
+
+
+Personalizar perfil con GitHub Actions:
+1. Elegimos el repositorio con nuestro nombre
+2. Vamos a readme.md y ponemos entre comentarios los siguiente:
+    <!-- START_SECTION:activity -->
+
+    <!-- END_SECTION:activity -->
+3. Vamos a GitHub Actions y elegimos simple workflows
+4. Escribimos algunas cosas (Es necesario profundizar más)
+5. Luego vamos de nuevo a github actions y ejecutamos nuestro github actions
+
+
+GitHub Cli:
+1. Nos dirigimos al repo de cli y lo instalamos
+Comandos:
+$ gh repo create 
+Crea un nuevo repositorio de github
+
+$ gh issue create
+Crea un issue para el repositorio en el que estemos
+
+Más comandos de CLI:https://cli.github.com/manual/
+
+
 
 
 
