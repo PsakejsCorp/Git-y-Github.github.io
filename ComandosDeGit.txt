@@ -225,6 +225,15 @@ $ git branch --no-merged
 
 Lista de ramas que no se han fusionado con la actual
 
+$ git branch -r 
+
+Se muestran las ramas remotas
+
+$ git branch -a 
+
+Se muestran todas las ramas tanto locales como remotas
+
+
 
 $ git checkout nombrerama
 
@@ -732,7 +741,55 @@ $ git Reflog
 En git reflog se ve absolutamente todos los cambios hechos hasta ahora, incluso los eliminados, con ramas, y enumerados.
 
 
+Git Grep y log:
 
+$ git grep palabra
+
+Busca los archivos donde escribimos la palabra palabra y nos muestra resumidamente en donde.
+
+$ git grep -n palabra
+
+Busca los archivos donde escribimos la palabra palbra y nos muestra en que linea exacta esta escrita.
+
+$ git grep -c palabra (Tambien sirve con etiquetas html)
+
+Contar la cantidad de veces que fue escrita
+
+$ git log -S palabra  ||  git log --all --grep
+
+sirve para buscar una plabra especifica en los commits
+
+
+
+Comandos y recursos colaborativos de Git
+
+$ git shortlog -sn 
+
+Muestra cuantos commits ha hecho cada miembro del grupo
+
+$ git shortlog -sn --all --no-merges
+
+Muestra la cantidad de commits por cada miembro sin contar los merges
+
+$ git blame archivo
+
+Sirve para ver linea por linea quien hizo cada cosa en un archivo especifico
+
+$ git blame -c archivo
+
+Sirve para ver linea por linea quien hizo cada cosa en un archivo especifico lo indenta un poco mejor
+
+$ git blame archivo -lineinicial,lineafinal
+
+Muestra quien hizo cada cosa linea por linea en un rango escogido ejm: L35,L60
+
+
+Continua Aprendiendo (Sugerencias de Freddy):
+
+1. Jenkins
+2. Azure IaaS 
+3. GitLab
+4. DevOps
 
 
 
