@@ -1,0 +1,11 @@
+{
+  "name": "ejemplo-package",
+  "version": "0.1.0",
+  "description": "Un paquete de ejemplo para práctica en Git y GitHub",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "AlejandroPR23",
+  "license": "MIT"
+}

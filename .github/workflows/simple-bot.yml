@@ -1,0 +1,20 @@
+name: Simple Bot for Pull Requests
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  add-comment:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Add a Welcome Comment
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.issues.createComment({
+            issue_number: context.payload.pull_request.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: "Gracias por tu contribución! Tu pull request será revisado pronto."
+          })
