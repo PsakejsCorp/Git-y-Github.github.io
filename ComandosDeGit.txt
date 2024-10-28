@@ -620,14 +620,30 @@ Automatizar GitHub Projects:
 
 
 GitHub Codespaces(Ambientes de trabajo en la nube):
-1. Nos dirigimos al boton donde podemos crear un repositorio y elegimos la opción de crear un Codespaces o directamente nos dirigmos a un repositorio y apretamos la " , " 
+1. Nos dirigimos al boton donde podemos crear un repositorio y elegimos la opción de crear un Codespaces
 2. Allí Seleccionaremos el repositorio que deseemos utilizar, la rama principal, nuestra región horaria, y el tipo de maquina en la nube
 3. Ahora podremos usar sin problema nuestro Codespaces
 4. Una vez concluyamos nuestra actividad en el codespace es importante que lo eliminemos
+5. Se pueden utilizar plantillas de codespaces que facilitaran el trabajo segun lo que elijamos(react, django, python, etc..)
+6. Se descarga live share para trabajar en la nube junto con otros
+7. Se manda el link  a un compañero y ahora podremos hacer pair programming
 
 
-Configurar entornos de desarrollo avanzados en  GitHub Codespaces:
-1. Se pueden utilizar plantillas de codespaces que facilitaran el trabajo segun lo que elijamos(react, django, python, etc..)
+GitHub.dev
+1. Al apretar la " , " o el " . " en cualquier repositorio se abrira un editor tipo VS
+2. A editar tu codigo
+
+
+Repositorios privados y el uso de tokens
+1. Creamos un repositorio privado
+2. Vamos a settings y a developer settings(Ultimo en la lista de ajustes)
+3. Alli veremos algo que dice tokens y elegiremos los clasicos
+4. Damos en generar nuevo, y una vez generado y elegidos los permisos del usuario debemos copiarlo antes de salir de la pagina de lo contrario tendremos que crear otro
+5. Hay otro tipo de tokens los fine-grained los cuales son más detallados su proceso es similar
+6. Al intentar clonar el repo privado en otro pc se nos solicitara una password la cual debe ser el token.
+
+
+
 
 
 

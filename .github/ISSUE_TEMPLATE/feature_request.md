@@ -10,7 +10,7 @@ assignees: ""
 
 ### Descripción
 
-Describe claramente la funcionalidad que te gustaría añadir o mejorar. 
+Describe claramente la funcionalidad que te gustaría añadir o mejorar.
 
 ### Justificación
 
@@ -18,7 +18,7 @@ Explica por qué esta funcionalidad es útil y cómo mejorará el proyecto o la 
 
 ### Implementación propuesta
 
-Describe cómo crees que se podría implementar esta funcionalidad. 
+Describe cómo crees que se podría implementar esta funcionalidad.
 
 ### Alternativas consideradas
 
