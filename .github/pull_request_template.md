@@ -21,9 +21,9 @@
 ## **Cambios Realizados** 🔄
 
 - 📌 **Cambio Principal:** [Descripción del cambio más importante]
-- 📌 **Otros Cambios:** 
-   - [Descripción de otro cambio significativo]
-   - [Actualización de documentación, si aplica]
+- 📌 **Otros Cambios:**
+  - [Descripción de otro cambio significativo]
+  - [Actualización de documentación, si aplica]
 
 ---
 

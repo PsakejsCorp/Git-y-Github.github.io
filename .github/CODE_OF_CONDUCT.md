@@ -29,7 +29,7 @@ Los mantenedores del proyecto tomarán las medidas necesarias para asegurar el c
 
 ## 📞 Reportar un Incidente
 
-Si observas un comportamiento que viola este código, por favor, repórtalo. 
+Si observas un comportamiento que viola este código, por favor, repórtalo.
 
 1. Envía un mensaje privado a uno de los mantenedores.
 
