@@ -1,5 +1,5 @@
 ---
-name: "🚀 Solicitud de mejora"
+name: "🚀 Solicitud de Mejora"
 about: "Sugerir una nueva funcionalidad o mejora en el proyecto."
 title: "[FEATURE] - Breve descripción de la funcionalidad"
 labels: enhancement

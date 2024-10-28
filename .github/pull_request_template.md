@@ -1,39 +1,68 @@
 # Pull Request Template ✨
 
-## **Título de la Pull Request**
+## **Título de la Pull Request** 📝
 
-[Descripción breve de los cambios realizados]
+[Descripción breve y clara de los cambios realizados]
 
-## **Descripción**
+---
 
-[Explica en detalle qué cambios has realizado en el código. Incluye el contexto y la razón detrás de estos cambios.]
+## **Descripción General** 📄
 
-## **Motivación**
+[Explica en detalle los cambios realizados en el código, el contexto, y la razón detrás de estos cambios.]
 
-[Describe por qué se realizó este cambio. ¿Qué problema soluciona? ¿Cuál es el objetivo de estos cambios?]
+---
 
-## **Cambios Realizados**
+## **Motivación** 💡
 
-- 🔹 [Descripción de un cambio significativo]
-- 🔹 [Descripción de otro cambio significativo]
-- 🔹 [Si aplicable, menciona cambios en la documentación]
+[Describe la razón del cambio: ¿Qué problema soluciona o mejora? ¿Cuál es el objetivo de estos cambios?]
 
-## **Pruebas Realizadas**
+---
 
-[Explica cómo has probado los cambios. Incluye instrucciones sobre cómo ejecutar las pruebas, así como cualquier resultado relevante.]
+## **Cambios Realizados** 🔄
 
-## **Checklist**
+- 📌 **Cambio Principal:** [Descripción del cambio más importante]
+- 📌 **Otros Cambios:**
+  - [Descripción de otro cambio significativo]
+  - [Actualización de documentación, si aplica]
 
-- [ ] He realizado pruebas y he verificado que funcionan como se espera.
-- [ ] He actualizado la documentación necesaria (si aplica).
-- [ ] No he añadido ningún aviso de "TODO" sin resolución.
+---
+
+## **Pruebas Realizadas** 🧪
+
+- **Tipos de pruebas:** [Detalla el tipo de pruebas realizadas, como pruebas unitarias, integración, etc.]
+- **Instrucciones:** [Explica cómo reproducir las pruebas, comandos, o pasos específicos]
+- **Resultados:** [Incluye cualquier resultado relevante, logs o capturas si aplica]
+
+---
+
+## **Checklist** ✅
+
+- [ ] He realizado pruebas y funcionan como se espera.
+- [ ] He actualizado la documentación correspondiente (si aplica).
+- [ ] No he añadido ningún "TODO" sin resolver.
 - [ ] He seguido las convenciones de codificación del proyecto.
-- [ ] Este cambio no introduce regresiones.
+- [ ] No se introducen regresiones en el proyecto.
+- [ ] Los cambios son claros y cumplen con los requisitos de la PR.
 
-## **Notas Adicionales**
+---
 
-[Cualquier otra información que creas que es relevante para la revisión, como consideraciones especiales, futuros cambios planeados, o problemas conocidos.]
+## **Notas Adicionales** 📝
 
-## **Referencias**
+[Información relevante adicional para los revisores, como cambios importantes, consideraciones especiales o problemas conocidos.]
 
-- [Cualquier enlace a issues relacionados, documentación externa o recursos útiles.]
+---
+
+## **Screenshots o Evidencias** 📷
+
+[Incluye capturas de pantalla, GIFs o cualquier evidencia visual que ayude a entender los cambios visuales o de UI, si aplica.]
+
+---
+
+## **Referencias Relacionadas** 🔗
+
+- **Issues Relacionados:** [Enlaces a issues o tickets de JIRA, si aplica]
+- **Documentación Externa:** [Cualquier enlace a documentación adicional o recursos útiles]
+
+---
+
+¡Gracias por revisar esta PR! 😊
