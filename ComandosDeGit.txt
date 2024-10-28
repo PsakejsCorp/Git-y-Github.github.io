@@ -690,6 +690,31 @@ Crea un issue para el repositorio en el que estemos
 Más comandos de CLI:https://cli.github.com/manual/
 
 
+GitHub releases (con pip):
+1.Creamos un archivo llamado setup.py:
+    from setuptools import setup, find_packages
+
+    setup(
+        name="",                           # Nombre del paquete
+        version="0.0.1",                                # Versión inicial
+        packages=find_packages(),                       # Paquetes a incluir
+        description="Un paquete pip simple de saludo",  # Breve descripción
+        author="",                         # Tu nombre
+        author_email="",                 # Tu correo electrónico
+        url="",     # URL del proyecto
+    )
+
+2. Creamos una carpeta con el mismo nombre del paquete
+3. en la carpeta creamos un archivo __init__.py 
+4. Ingresamos contenido a nuestro archivo init:
+    def saludar(nombre):
+    return "Hola " + nombre + ", este es mi primer paquete pip!"
+5. Ejecutamos el comando en la terminal: python3 setup.py bdist_wheel sdist
+6. Ir a releases en GitHub y crear un nuevo release 
+7. Creamos un tag (Versión)
+8. publicamos
+
+
 
 
 
