@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "npm" # Cambia esto según el tipo de dependencias
+  - package-ecosystem: "npm" 
     directory: "/"
     schedule:
       interval: "weekly"

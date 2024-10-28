@@ -1,11 +1,16 @@
 {
   "name": "ejemplo-package",
   "version": "0.1.0",
-  "description": "Un paquete de ejemplo para práctica en Git y GitHub",
+  "description": "Un package de ejemplo para práctica en Git y GitHub",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
-  "author": "AlejandroPR23",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlejandroPR23/Curso-Profesional-de-Git-y-Github.github.io"
+  },
+  "keywords": ["ejemplo", "package", "práctica"],
+  "author": "Tu Nombre",
   "license": "MIT"
 }
