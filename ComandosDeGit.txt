@@ -27,7 +27,9 @@ $ git commit -am
 
 Añade los cambios al commit es la combinación del git add . y el commit clasico, no funciona si los archivos nunca han sido rastreados con un add normal
 
+$ git commit --amend 
 
+Re agrupa los cambios en el commit anterior para que sean enviados en un unico commit
 
 $ git status
 
@@ -715,15 +717,20 @@ GitHub releases (con pip):
 8. publicamos
 
 
-
-
-
-
-
-
-
-
 Git Reset y Reflog
+
+$ git reset --soft
+
+Mantiene los cambios en stagging 
+
+$ git reset --hard (Mala practica)
+
+Lo resetea todo
+
+$ git Reflog
+
+En git reflog se ve absolutamente todos los cambios hechos hasta ahora, incluso los eliminados, con ramas, y enumerados.
+
 
 
 
