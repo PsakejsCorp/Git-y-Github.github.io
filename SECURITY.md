@@ -44,5 +44,4 @@ Agradecemos a todos los colaboradores y usuarios que ayudan a mejorar la segurid
 
 ---
 
-_Última actualización: 28/10/2024_
-
+## _Última actualización: 28/10/2024_
