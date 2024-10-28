@@ -660,7 +660,7 @@ Repositorios privados y el uso de tokens
 
 Dependabot(Se encarga de actualizar packages):
 1. Vamos a setting o a security dentro de nuestro repositorio
-2. Buscamos la seccion de dependabot y activamos todas las opciones
+2. Buscamos la seccion de dependabot y activamos todas las opciones al dar en la opción de depenbot version updates
 3. Nos aparecera un archivo .yml
 4. Alli podremos configurar nuestro dependabot de muchas maneras para que revise packetes especificos, cada cuanto, etc.
 
