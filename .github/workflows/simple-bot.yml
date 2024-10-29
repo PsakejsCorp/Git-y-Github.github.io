@@ -2,12 +2,14 @@ name: Respond to Pull Requests
 
 on:
   pull_request:
-    types: [opened, reopened, edited]  # Define los tipos de eventos que activarán el flujo de trabajo
+    types: [opened, reopened, edited]
+
+permissions:
+  pull-requests: write  # Agrega esta línea
 
 jobs:
   comment:
     runs-on: ubuntu-latest
-
     steps:
       - name: Comment on Pull Request
         uses: peter-evans/create-or-update-comment@v2
@@ -16,3 +18,4 @@ jobs:
           body: |
             Gracias por abrir este pull request! 🎉
             Estoy revisándolo y te responderé pronto.
+          token: ${{ secrets.GITHUB_TOKEN }}
