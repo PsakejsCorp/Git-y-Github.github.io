@@ -1,21 +1,18 @@
-name: Create Comment
+name: Respond to Pull Requests
 
 on:
-  issues:
-    types: [opened]
+  pull_request:
+    types: [opened, reopened, edited]  # Define los tipos de eventos que activarán el flujo de trabajo
 
 jobs:
   comment:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Create Comment
-        uses: actions/github-script@v6
+      - name: Comment on Pull Request
+        uses: peter-evans/create-or-update-comment@v2
         with:
-          script: |
-            const issue_number = context.issue.number; // Asegúrate de que el issue existe en el contexto
-            const comment = "¡Este es un comentario!";
-            await github.issues.createComment({
-              ...context.repo,
-              issue_number,
-              body: comment,
-            });
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Gracias por abrir este pull request! 🎉
+            Estoy revisándolo y te responderé pronto.
