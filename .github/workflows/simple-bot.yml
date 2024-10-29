@@ -5,7 +5,7 @@ on:
     types: [opened, reopened, edited]
 
 permissions:
-  pull-requests: write  # Agrega esta línea
+  pull-requests: write  # Asegúrate de que esta línea esté presente
 
 jobs:
   comment:
@@ -18,4 +18,4 @@ jobs:
           body: |
             Gracias por abrir este pull request! 🎉
             Estoy revisándolo y te responderé pronto.
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PULL_SECRET }}  # Usa tu secret aquí
