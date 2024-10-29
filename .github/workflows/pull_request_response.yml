@@ -11,13 +11,12 @@ jobs:
       - name: Comment on Pull Request
         uses: actions/github-script@v6
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}  # Asegúrate de usar el token
           script: |
-            const { context, github } = require('@actions/github');
-
             const prNumber = context.payload.pull_request.number;
             const commentBody = "Gracias por tu contribución! Revisaremos tu PR pronto.";
             
-            await github.issues.createComment({
+            await github.rest.issues.createComment({
               ...context.repo,
               issue_number: prNumber,
               body: commentBody,
