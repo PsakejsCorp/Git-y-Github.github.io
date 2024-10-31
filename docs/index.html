@@ -1,34 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlogPost 2.0</title>
-    <link rel="shortcut icon" href="https://imgur.com/PdItp0n" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprende Git y GitHub</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
-        <div class="cabecera">
-            <img id="logo" src="https://www.pexels.com/es-es/foto/blanco-y-negro-naturaleza-bosque-escala-de-grises-5976393/"  alt="">
-            Bienvenido a HyperBlog 
-            <div class="tagline">
-                Tu blog maestro
-            </div>
-        </div>
-        <div id="post">
-            <h1 style="text-align: center;">Blog de camiones más potentes</h1>
-            <p style="text-align: center;"><img src="https://www.pexels.com/es-es/foto/blanco-y-negro-naturaleza-bosque-escala-de-grises-5976393/" width="300px"></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, aperiam Psakejs.</p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur Psakejs adipisicing elit. Doloremque corporis nesciunt recusandae delectus expedita accusantium modi ullam fugiat nostrum excepturi.
-            </p>
-            <p>Webos</p>
-        </div>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre el Proyecto</a></li>
+        <li><a href="#resources">Recursos</a></li>
+        <li><a href="">Comandos Basicos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <div class="footer">
-            Hecho con amor 😱
-        </div>
-    </div>
+  <main>
+    <section class="hero">
+      <h2>Conviértete en un experto en Git y GitHub</h2>
+      <p>Aprende los comandos y flujos de trabajo avanzados para llevar tu desarrollo al siguiente nivel. Inspirado en los cursos de <span class="highlight">Platzi</span>.</p>
+      <div class="git-img">
+          <img src="./assets/images/github.png" alt="Git y GitHub" class="hero-image">
+          <a href="#resources" class="cta-button">Explora los Recursos</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Sobre el Proyecto</h2>
+      <p>Este repositorio de GitHub es una guía práctica para aprender Git y GitHub, desde lo básico hasta técnicas avanzadas. Podrás practicar con ejemplos claros y obtener una comprensión completa de cómo trabajar en equipos distribuidos.</p>
+    </section>
+
+    <section id="resources" class="resources">
+      <h2>Recursos</h2>
+      <ul>
+        <li><a href="https://git-scm.com/doc" target="_blank">Documentación oficial de Git</a></li>
+        <li><a href="https://docs.github.com/" target="_blank">Documentación oficial de GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub | Creado con inspiración de los cursos de Platzi</p>
+  </footer>
 </body>
 </html>

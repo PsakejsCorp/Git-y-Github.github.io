@@ -1586,13 +1586,6 @@ El comando `git blame` permite identificar quién realizó cambios en cada líne
 
 - **Descripción**: Muestra quién hizo cada cambio línea por línea en un rango específico (ejemplo: L35,L60).
 
-## 3. Recursos para Continuar Aprendiendo (Sugerencias de Freddy)
-
-1. **Jenkins**: Herramienta de automatización de integración continua.
-2. **Azure IaaS**: Infraestructura como servicio en la nube de Microsoft Azure.
-3. **GitLab**: Plataforma para la gestión de repositorios y DevOps.
-4. **DevOps**: Cultura y práctica que busca unir el desarrollo de software y la operación de TI para mejorar la colaboración y la eficiencia.
-
 ## Consideraciones Finales
 
 - **Colaboración**: Estos comandos son esenciales para entender la contribución de cada miembro del equipo y para facilitar la revisión de cambios en el código.
