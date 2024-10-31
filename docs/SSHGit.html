@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relacionar tus Credenciales SSH con GitHub</title>
+  <link rel="stylesheet" href="./assets/css/SSh-Git.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#github-ssh">SSH en GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Relacionar tus Credenciales SSH con GitHub 🔗</h2>
+    </section>
+
+    <section id="github-ssh" class="section">
+      <h2>🔐 Acceder a tu perfil de GitHub</h2>
+      <ul>
+        <li><strong>Dirígete a tu perfil</strong> y selecciona <em>Settings</em> (Configuraciones).</li>
+      </ul>
+
+      <h3>🆕 Agregar una nueva llave SSH</h3>
+      <ul>
+        <li>En el apartado de <em>SSH and GPG keys</em>, haz clic en <em>New SSH key</em> (Crear nueva llave SSH).</li>
+        <li>Pega tu llave pública en el campo proporcionado y guarda los cambios.</li>
+      </ul>
+
+      <h3>🔗 Agregar un repositorio remoto</h3>
+      <ul>
+        <li>Para vincular un repositorio con tu carpeta local, utiliza el siguiente comando:</li>
+        <li><code>git remote add origin url</code></li>
+        <li>Sustituye <code>url</code> con la URL de tu repositorio.</li>
+      </ul>
+
+      <h3>📋 Verificar los repositorios remotos</h3>
+      <ul>
+        <li>Para mostrar los enlaces a los que puedes hacer <em>push</em> y <em>pull</em>, ejecuta:</li>
+        <li><code>git remote -v</code></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
