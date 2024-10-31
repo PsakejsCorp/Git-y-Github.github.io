@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comandos para Revertir y Resetear Cambios en Git</title>
+  <link rel="stylesheet" href="./assets/css/RevertirResetear.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#git-reset">Revertir y Resetear Cambios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Comandos para Revertir y Resetear Cambios en Git 🔄</h2>
+    </section>
+
+    <section id="git-reset" class="section">
+      <h2>🔄 Comando: git revert</h2>
+      <p>El comando <strong>git revert</strong> revierte los cambios de un commit anterior, creando un nuevo commit que indica la reversión.</p>
+      <pre><code>git revert commit_numerosdelcommit</code></pre>
+
+      <h3>Ejemplo:</h3>
+      <pre><code>git revert abc1234</code></pre>
+
+      <h2>🛑 Comando: git reset</h2>
+      <p>El comando <strong>git reset</strong> se utiliza para mover el puntero de HEAD a un commit anterior, modificando el área de staging.</p>
+
+      <h3>Opción: --hard</h3>
+      <pre><code>git reset versionanterior --hard</code></pre>
+      <p>Restaura todo a una versión anterior, eliminando los cambios actuales. <strong>¡Cuidado!</strong> Se perderán los cambios no guardados.</p>
+
+      <h3>Ejemplo:</h3>
+      <pre><code>git reset abc1234 --hard</code></pre>
+
+      <h3>Opción: --mixed</h3>
+      <pre><code>git reset versionanterior --mixed</code></pre>
+      <p>Elimina commits y borra cambios del área de staging, dejando el directorio de trabajo intacto.</p>
+
+      <h3>Ejemplo:</h3>
+      <pre><code>git reset abc1234 --mixed</code></pre>
+
+      <h3>Opción: --soft</h3>
+      <pre><code>git reset versionanterior --soft</code></pre>
+      <p>Restaura a una versión anterior, manteniendo cambios en el área de staging.</p>
+
+      <h3>Ejemplo:</h3>
+      <pre><code>git reset abc1234 --soft</code></pre>
+
+      <h2>📥 Comando: git reset HEAD</h2>
+      <p>Retira archivos del área de staging, regresándolos al estado de no rastreado.</p>
+      <pre><code>git reset HEAD</code></pre>
+
+      <h3>Ejemplo específico:</h3>
+      <pre><code>git reset HEAD Nombrearchivo</code></pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>

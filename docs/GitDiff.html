@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>git diff - Comparación de Versiones</title>
+  <link rel="stylesheet" href="./assets/css/GitDiff.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#git-diff">Git Diff</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Comparación de Versiones con git diff 🔍</h2>
+    </section>
+
+    <section id="git-diff" class="section">
+      <h2>📜 Comando: git diff</h2>
+      <p>El comando <strong>git diff</strong> se utiliza para mostrar las diferencias entre varias versiones de archivos en un repositorio de Git. Es esencial para los desarrolladores, ya que permite ver qué cambios se han realizado.</p>
+      
+      <h3>Uso básico</h3>
+      <pre><code>git diff</code></pre>
+      <p>Este comando muestra los cambios no confirmados en tu directorio de trabajo en comparación con el último commit.</p>
+
+      <h3>Comparación entre commits</h3>
+      <p>Para comparar diferencias entre dos commits, utiliza la siguiente sintaxis:</p>
+      <pre><code>git diff commitA commitB</code></pre>
+      <ul>
+        <li><strong>commitA</strong>: Hash del commit más antiguo.</li>
+        <li><strong>commitB</strong>: Hash del commit más reciente.</li>
+      </ul>
+
+      <h4>Ejemplo</h4>
+      <pre><code>git log</code></pre>
+      <p>Ejecuta <code>git log</code> para obtener los hashes de los commits.</p>
+      <pre><code>git diff 0p9q8r7s 1a2b3c4d</code></pre>
+      <p>Esto mostrará todas las líneas añadidas, eliminadas o modificadas entre los dos commits.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
