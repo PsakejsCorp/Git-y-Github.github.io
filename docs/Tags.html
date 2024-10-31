@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poner Tags a los Commits</title>
+  <link rel="stylesheet" href="./assets/css/Tags.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#tags">Tags en Commits</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Poner Tags a los Commits 🏷️</h2>
+    </section>
+
+    <section id="tags" class="section">
+      <h2>🏷️ Crear un Tag para la Versión Actual</h2>
+      <ul>
+        <li><strong>Ejecuta el siguiente comando</strong> para crear un tag en la versión actual del proyecto:</li>
+        <li><code>git tag nombretag</code></li>
+      </ul>
+
+      <h3>📌 Crear un Tag para un Commit Específico</h3>
+      <ul>
+        <li>Para crear un tag anotado en un commit específico, utiliza el siguiente comando:</li>
+        <li><code>git tag -a v=0.1 -m "Primeras clases" numerosdelcommit</code></li>
+        <li><em>Reemplaza <code>numerosdelcommit</code> con el identificador del commit</em> al que deseas asociar el tag.</li>
+      </ul>
+
+      <h3>📋 Mostrar una Lista de Todos los Tags</h3>
+      <ul>
+        <li>Para ver todos los tags existentes en el repositorio, ejecuta:</li>
+        <li><code>git tag</code></li>
+      </ul>
+
+      <h3>🔗 Mostrar los Tags y sus Commits Relacionados</h3>
+      <ul>
+        <li>Para visualizar los tags y el commit al que están asociados, utiliza:</li>
+        <li><code>git show-ref --tags</code></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
