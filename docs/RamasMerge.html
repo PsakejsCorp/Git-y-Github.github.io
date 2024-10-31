@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comandos para Fusionar Ramas en Git</title>
+  <link rel="stylesheet" href="./assets/css/RamasMerge.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#comandos-merge">Comandos de Fusionado</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Comandos para fusionar ramas en Git 🔄</h2>
+    </section>
+
+    <section id="comandos-merge" class="section">
+      <h2>📜 Comandos Útiles para Fusionado de Ramas</h2>
+      <ul>
+        <li><strong>git merge <em>nombrarama</em></strong>: 🔗 Une los cambios de <em>nombrarama</em> con la rama actual (se debe realizar desde la rama principal). Puedes incluir un "mensaje opcional" para describir el merge.</li>
+        <li><strong>git merge --abort</strong>: ⏸️ Anula el proceso de merge y restaura el estado anterior, deshaciendo cualquier cambio realizado durante el merge.</li>
+      </ul>
+    </section>
+
+    <section id="resolucion-conflictos" class="section">
+      <h2>⚠️ Resolución de conflictos al hacer un merge</h2>
+      <p>Cuando unificas cambios, puede haber conflictos. Si esto ocurre, deberás decidir cuál parte del código conservar y cuál descartar. Asegúrate de revisar cada conflicto cuidadosamente antes de finalizar el merge.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
