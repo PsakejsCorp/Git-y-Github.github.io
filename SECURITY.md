@@ -6,7 +6,7 @@
 
 Si encuentras alguna vulnerabilidad en el repositorio, sigue estos pasos para reportarla:
 
-1. 📧 **Envía un correo a [patpampam4@gmail.com]** con el asunto "Vulnerabilidad en el Repositorio".
+1. 📧 **Envía un correo a [nose@no-reply.com]** con el asunto "Vulnerabilidad en el Repositorio".
 2. 📝 **Incluye toda la información relevante**, como:
    - Descripción detallada de la vulnerabilidad.
    - Pasos para replicarla.
