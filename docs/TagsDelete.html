@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enviar y Eliminar Tags en GitHub</title>
+  <link rel="stylesheet" href="./assets/css/TagsDelete.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#tags">Tags en GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Enviar y Eliminar Tags en GitHub 🚀</h2>
+    </section>
+
+    <section id="tags" class="section">
+      <h2>🚀 Enviar Tags a GitHub</h2>
+      <ul>
+        <li>Para enviar todos los tags que has creado a GitHub, utiliza el siguiente comando:</li>
+        <li><code>git push origin --tags</code></li>
+      </ul>
+
+      <h3>🗑️ Eliminar un Tag del Entorno Local</h3>
+      <ul>
+        <li>Para eliminar un tag de tu repositorio local, ejecuta:</li>
+        <li><code>git tag -d nombreTag</code></li>
+        <li><em>Reemplaza <code>nombreTag</code> con el nombre del tag</em> que deseas eliminar.</li>
+      </ul>
+
+      <h3>🚫 Eliminar un Tag de GitHub</h3>
+      <ul>
+        <li>Para eliminar un tag de GitHub, utiliza el siguiente comando:</li>
+        <li><code>git push origin :refs/tags/nombreTag</code></li>
+        <li>Asegúrate de reemplazar <code>nombreTag</code> con el nombre del tag que deseas eliminar.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>

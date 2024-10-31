@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enviar Branches a GitHub</title>
+  <link rel="stylesheet" href="./assets/css/EnviarBranch.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Guía de Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#branches">Branches en GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Enviar Diferentes Branches a GitHub 🌿</h2>
+    </section>
+
+    <section id="branches" class="section">
+      <h2>🌿 Mostrar la Lista de Branches Actuales</h2>
+      <ul>
+        <li>Para ver la lista de branches que existen en tu repositorio, ejecuta:</li>
+        <li><code>git show-branch</code></li>
+      </ul>
+
+      <h3>🔍 Mostrar Lista de Branches con Más Detalle</h3>
+      <ul>
+        <li>Para obtener una vista más detallada de todos los branches, utiliza:</li>
+        <li><code>git show-branch --all</code></li>
+      </ul>
+
+      <h3>🖥️ Abrir Aplicación de Visualización de Branches y Commits</h3>
+      <ul>
+        <li>Para abrir una aplicación que permite ver branches y commits, usa:</li>
+        <li><code>gitk</code></li>
+      </ul>
+
+      <h3>📤 Enviar una Rama a GitHub</h3>
+      <ul>
+        <li>Para enviar la rama actual a GitHub, ejecuta:</li>
+        <li><code>git push origin nombrebranch</code></li>
+      </ul>
+
+      <h3>🚀 Subir Commits y la Rama Estableciendo el Upstream</h3>
+      <ul>
+        <li>Para subir los commits de una rama y establecer el upstream:</li>
+        <li><code>git push -u origin nombrebranch</code></li>
+      </ul>
+
+      <h3>➕ Crear Nuevos Branches</h3>
+      <ul>
+        <li>Para crear un nuevo branch llamado <code>header</code>, ejecuta:</li>
+        <li><code>git branch header</code></li>
+        <li>Para crear otro branch llamado <code>footer</code>, usa:</li>
+        <li><code>git branch footer</code></li>
+      </ul>
+
+      <h3>⬇️ Traer una Rama Específica del Repositorio</h3>
+      <ul>
+        <li>Para obtener una rama específica del repositorio, ejecuta:</li>
+        <li><code>git pull origin nombrerama</code></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Guía de Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
