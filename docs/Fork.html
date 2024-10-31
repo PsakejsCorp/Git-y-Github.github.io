@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear un Fork y Servidor Local</title>
+  <link rel="stylesheet" href="./assets/css/Fork.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Guía de Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#fork">Creando un Fork</a></li>
+        <li><a href="#servidor">Servidor Local</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Creando un Fork 🍴</h2>
+    </section>
+
+    <section id="fork" class="section">
+      <h2>¿Qué es un Fork?</h2>
+      <p>Un fork es tomar una copia del estado actual de un proyecto y clonarlo desde GitHub.</p>
+
+      <h3>Hacer un Pull Desde un Fork</h3>
+
+      <h4>1. Agregar el Repositorio Original como Remoto</h4>
+      <ul>
+        <li>Ejecuta el siguiente comando para agregar el repositorio original:</li>
+        <pre><code>git remote add upstream https://github.com/AlejandroPR23/Curso-Profesional-de-Git-y-Github.git</code></pre>
+        <li>Esto agrega el repositorio original como un remoto, permitiéndote hacer pulls desde él. El nombre asignado en este caso es <code>upstream</code>.</li>
+      </ul>
+
+      <h4>2. Realizar un Pull del Repositorio Original</h4>
+      <ul>
+        <li>Utiliza el siguiente comando para traer los cambios:</li>
+        <pre><code>git pull upstream origin</code></pre>
+        <li>Esto traerá los cambios del repositorio original hacia tu fork.</li>
+      </ul>
+      <p><strong>Nota:</strong> Todo este proceso también se puede realizar directamente desde GitHub.</p>
+    </section>
+
+  <footer class="footer">
+    <p>© 2024 Guía de Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
