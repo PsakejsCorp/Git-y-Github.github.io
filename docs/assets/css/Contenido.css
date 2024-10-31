@@ -1,130 +1,100 @@
-/* styles.css */
+/* ComandosBasicos.css */
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f9;
     color: #333;
-  }
-  
-  .header {
+}
+
+.header {
     background-color: #333;
     padding: 1rem 0;
     color: #fff;
     text-align: center;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1000px;
     margin: auto;
     padding: 0 1.5rem;
-  }
-  
-  .logo {
+}
+
+.logo {
     font-size: 1.5rem;
-  }
-  
-  .nav-links {
+}
+
+.nav-links {
     list-style: none;
-  }
-  
-  .nav-links li {
+}
+
+.nav-links li {
     display: inline;
     margin: 0 1rem;
-  }
-  
-  .nav-links a {
+}
+
+.nav-links a {
     color: #fff;
     text-decoration: none;
-  }
-  
-  .nav-links a:hover {
+}
+
+.nav-links a:hover {
     color: #ffdd57;
-  }
-  
-  .hero {
+}
+
+.hero {
     text-align: center;
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem;
     background-color: #4a90e2;
     color: #fff;
-  }
-  
-  .hero h2 {
+}
+
+.hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-  }
-  
-  .hero p {
-    font-size: 1.2rem;
-  }
-  
-  .hero-image {
-    max-width:50px;
-    height: 50px;
-    margin-top: 1rem;
-  }
+}
 
-  .git-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    margin-top: 1rem;
-    color: #4a90e2;
-    background-color: #fff;
-    border-radius: 4px;
-    text-decoration: none;
-  }
-  
-  .cta-button:hover {
-    background-color: #ffdd57;
-    color: #333;
-  }
-  
-  .about, .resources {
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+section ol {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    text-align: center;
-  }
+    list-style-position: inside;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
- 
-  
-  .resources ul {
-    list-style: none;
-  }
-  
-  .resources li {
+section ol li {
     margin: 0.5rem 0;
-  }
-  
-  .resources a {
+}
+
+section ol li a {
     text-decoration: none;
     color: #4a90e2;
-  }
-  
-  .resources a:hover {
+    font-weight: 500;
+}
+
+section ol li a:hover {
     text-decoration: underline;
-  }
-  z
-  .footer {
+}
+
+.footer {
     text-align: center;
     padding: 1rem;
     background-color: #333;
     color: #fff;
-  }
-  
+}
