@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comandos de Git</title>
+  <link rel="stylesheet" href="./assets/css/ComandosGit.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#comandos">Comandos de Git</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Git Commands 🧑‍💻</h2>
+      <p>🛠️ Comandos básicos de Git</p>
+    </section>
+
+    <section id="comandos" class="section">
+      <h2>📜 Comandos Útiles</h2>
+      <ul>
+        <li><strong>code</strong>: Abre Visual Studio Code (VS Code) desde la terminal.</li>
+        <li><strong>git --help</strong>: Muestra ayuda para el comando git. Útil para obtener detalles de cualquier comando en Git.</li>
+        <li><strong>git config --global init.defaultBranch main</strong>: Configura la rama principal como main para cada nuevo repositorio inicializado.</li>
+        <li><strong>git init</strong>: Inicializa un nuevo repositorio en la carpeta actual.</li>
+        <li><strong>git add</strong> <em>ComandosDeGit.txt</em>: Agrega el archivo al área de espera.</li>
+        <li><strong>git add .</strong>: Agrega todos los archivos de la carpeta actual al área de espera.</li>
+        <li><strong>git commit</strong> <em>-m "Mensaje"</em>: Realiza un commit con el mensaje especificado.</li>
+        <li><strong>git commit -am "Mensaje"</strong>: Añade los cambios y realiza un commit en un solo paso.</li>
+        <li><strong>git commit --amend</strong>: Reagrupa los cambios en el commit anterior.</li>
+        <li><strong>git status</strong>: Verifica qué archivos están en el área de espera y cuáles han sido modificados.</li>
+        <li><strong>git show</strong>: Muestra todos los cambios realizados en el último commit.</li>
+        <li><strong>git log</strong>: Muestra el historial de cambios de un archivo específico.</li>
+        <li><strong>git log --stat</strong>: Permite ver los cambios específicos realizados en cada archivo.</li>
+        <li><strong>git log --all --graph</strong>: Muestra una representación gráfica de las ramas en el repositorio.</li>
+        <li><strong>git log --all --graph --decorate --oneline</strong>: Muestra un resumen compacto y decorado de todas las ramas.</li>
+        <li><strong>alias jamon="$ git log --all --graph --decorate --oneline"</strong>: Asigna un alias al comando largo.</li>
+        <li><strong>git rm</strong> <em>historia.txt</em>: Elimina el archivo historia.txt del área de espera.</li>
+        <li><strong>git rm --cached historia.txt</strong>: Elimina el archivo del área de espera, pero lo mantiene en el disco duro.</li>
+        <li><strong>git rm --force</strong>: Elimina el archivo de Git y del disco duro.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
