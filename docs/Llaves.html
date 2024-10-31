@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Llaves Públicas y Privadas en Git</title>
+  <link rel="stylesheet" href="./assets/css/Llaves.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#ssh-keys">Llaves SSH</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Llaves Públicas y Privadas (Cifrado Asimétrico) 🔐</h2>
+    </section>
+
+    <section id="ssh-keys" class="section">
+      <h2>🗝️ Generación y Configuración de Llaves SSH</h2>
+      <ul>
+        <li><strong>Abrir Git Bash:</strong> 💻 Asegúrate de estar en la carpeta <em>home</em> de tu PC usando el comando:</li>
+        <li><code>pwd</code></li>
+      </ul>
+      
+      <h3>🔑 Generar una llave SSH</h3>
+      <ul>
+        <li>Ejecuta el siguiente comando para crear una nueva llave SSH:</li>
+        <li><code>ssh-keygen -t rsa -b 4096 -C "Prueba@gmail.com"</code></li>
+        <li>Esto generará la llave y te pedirá que elijas dónde guardarla. Es recomendable hacerlo en la carpeta <em>home</em>. También se te pedirá que ingreses una contraseña; puedes optar por poner una o dejarla en blanco.</li>
+      </ul>
+
+      <h3>🔄 Agregar la llave al entorno o sistema operativo</h3>
+      <ul>
+        <li>Para asegurarte de que el sistema reconozca la llave, revisa el servidor de llaves con el siguiente comando:</li>
+        <li><code>eval $(ssh-agent -s)</code></li>
+      </ul>
+
+      <h3>🔒 Agregar la llave privada al sistema</h3>
+      <ul>
+        <li>Añade la llave privada a tu sistema o servidor con el comando:</li>
+        <li><code>ssh-add ~/.ssh/id_rsa</code></li>
+      </ul>
+
+      <h3>🔗 Verificar la conexión con GitHub</h3>
+      <ul>
+        <li>Establece una conexión SSH con GitHub para comprobar que todo esté funcionando correctamente:</li>
+        <li><code>ssh -T git@github.com</code></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
