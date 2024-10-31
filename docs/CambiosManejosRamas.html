@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comandos para Manejar Ramas en Git</title>
+  <link rel="stylesheet" href="./assets/css/CambiosManejosRamas.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#git-branch">Manejo de Ramas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Comandos para Traer Cambios y Manejar Ramas 📦</h2>
+    </section>
+
+    <section id="git-branch" class="section">
+      <h2>🔄 Comando: git checkout</h2>
+      <p>El comando <strong>git checkout</strong> permite cambiar entre ramas, recuperar archivos específicos de versiones anteriores y crear nuevas ramas.</p>
+      
+      <h3>Cambiar entre ramas</h3>
+      <pre><code>git checkout nombrerama</code></pre>
+      <p>Cambia el contexto de trabajo a la rama especificada.</p>
+
+      <h3>Alternativa para cambiar de ramas</h3>
+      <pre><code>git switch nombrerama</code></pre>
+      <p>Proporciona una forma más intuitiva de cambiar de ramas.</p>
+
+      <h3>Crear y cambiar a una nueva rama</h3>
+      <pre><code>git checkout -b nombrerama</code></pre>
+      <p>Crea una nueva rama y cambia a ella de inmediato.</p>
+
+      <h3>Recuperar un archivo específico de un commit</h3>
+      <pre><code>git checkout versioncommit Nombrearchivo</code></pre>
+      <p>Trae la versión de un archivo específico de un commit anterior.</p>
+
+      <h3>Recuperar un archivo desde la rama master</h3>
+      <pre><code>git checkout master Nombrearchivo</code></pre>
+      <p>Obtiene la versión más reciente de un archivo desde la rama master.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
