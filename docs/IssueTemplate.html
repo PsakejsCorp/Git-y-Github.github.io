@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear un Issue Template</title>
+  <link rel="stylesheet" href="./assets/css/issuestemplate.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#issue-template">Crear un Issue Template</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Crear un Issue Template 📝</h2>
+      <p>Para mejorar la gestión de problemas en tu repositorio de GitHub, puedes crear una plantilla para reportar errores. Aquí te explico cómo hacerlo:</p>
+    </section>
+
+    <section id="issue-template" class="section">
+      <h2>Pasos para crear un Issue Template</h2>
+
+      <h3>📂 Crear la estructura de carpetas</h3>
+      <ul>
+        <li><code>mkdir .github</code> - Crea la carpeta <code>.github</code> en tu repositorio local.</li>
+        <li><code>mkdir .github/ISSUE_TEMPLATE</code> - Dentro de <code>.github</code>, crea la carpeta <code>ISSUE_TEMPLATE</code>.</li>
+        <li><code>touch .github/ISSUE_TEMPLATE/bug_report.md</code> - Crea un archivo llamado <code>bug_report.md</code> para la plantilla.</li>
+      </ul>
+
+      <h3>📄 Agregar la plantilla de reporte de errores</h3>
+      <p>En <code>bug_report.md</code>, agrega el siguiente contenido para facilitar la creación de reportes de errores:</p>
+      
+      <pre><code>
+# Reporte de Error
+
+**Descripción del error:**
+[Describe brevemente el error]
+
+**Pasos para reproducir:**
+1. [Paso 1]
+2. [Paso 2]
+3. [Paso 3]
+
+**Resultado esperado:**
+[Describe el resultado que esperabas]
+
+**Resultado actual:**
+[Describe lo que realmente sucedió]
+
+**Información adicional:**
+[Agrega cualquier otra información relevante, como capturas de pantalla o detalles del entorno]
+      </code></pre>
+
+      <h3>🔍 Encontrar la plantilla en GitHub</h3>
+      <p>Ve a la pestaña de <code>Issues</code> en tu repositorio en GitHub, y encontrarás la plantilla disponible. Puedes agregar más plantillas para otros tipos de problemas creando archivos adicionales en la carpeta <code>ISSUE_TEMPLATE</code>.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>

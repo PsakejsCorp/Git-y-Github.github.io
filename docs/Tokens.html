@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositorios Privados y Tokens</title>
+  <link rel="stylesheet" href="./assets/css/Tokens.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#repositorios-privados">Repositorios Privados</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Repositorios Privados y el Uso de Tokens 🔐</h2>
+      <p>A continuación, se detallan los pasos para crear un repositorio privado y generar tokens de acceso en GitHub.</p>
+    </section>
+
+    <section id="repositorios-privados" class="section">
+      <h2>Pasos para trabajar con repositorios privados</h2>
+
+      <h3>1️⃣ Crear un Repositorio Privado</h3>
+      <ul>
+        <li>Comienza creando un nuevo repositorio y selecciona la opción de privado.</li>
+      </ul>
+
+      <h3>2️⃣ Acceder a la Configuración de Tokens</h3>
+      <ul>
+        <li>Ve a <strong>Settings</strong> y luego a <strong>Developer settings</strong> (es el último en la lista de ajustes).</li>
+      </ul>
+
+      <h3>3️⃣ Generar un Token</h3>
+      <ul>
+        <li>Busca la sección de tokens y elige <strong>classic tokens</strong>.</li>
+        <li>Haz clic en <strong>Generate new token</strong>.</li>
+        <li>Asegúrate de copiar el token generado y elegir los permisos necesarios, ya que no podrás volver a verlo después de salir de la página.</li>
+      </ul>
+
+      <h3>4️⃣ Tokens Fine-Grained</h3>
+      <ul>
+        <li>También existen los <strong>fine-grained tokens</strong>, que ofrecen un control más detallado sobre los permisos. El proceso de creación es similar.</li>
+      </ul>
+
+      <h3>5️⃣ Clonar Repositorios Privados</h3>
+      <ul>
+        <li>Al intentar clonar el repositorio privado en otro PC, se te pedirá una contraseña. En este caso, debes usar el token que generaste como contraseña.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creación y Publicación de un Paquete de Python</title>
+  <link rel="stylesheet" href="./assets/css/Package.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#python-package">Paquete de Python</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Creación y Publicación de un Paquete de Python con GitHub Releases 🚀</h2>
+      <p>Aprende a crear y publicar tu propio paquete de Python utilizando GitHub Releases.</p>
+    </section>
+
+    <section id="python-package" class="section">
+      <h2>Pasos para Crear y Publicar un Paquete de Python</h2>
+
+      <h3>1️⃣ Crear el archivo <code>setup.py</code></h3>
+      <p>El archivo <code>setup.py</code> es fundamental para definir la información y la estructura de tu paquete. Crea un archivo llamado <code>setup.py</code> en la raíz de tu proyecto con el siguiente contenido:</p>
+      <pre><code>from setuptools import setup, find_packages
+
+setup(
+    name="mi_paquete",                            # Nombre del paquete
+    version="0.0.1",                             # Versión inicial
+    packages=find_packages(),                     # Paquetes a incluir
+    description="Un paquete pip simple de saludo",  # Breve descripción
+    author="Tu Nombre",                           # Tu nombre
+    author_email="tu_email@example.com",         # Tu correo electrónico
+    url="https://github.com/tu_usuario/mi_repositorio",  # URL del proyecto
+)</code></pre>
+
+      <h3>2️⃣ Crear la estructura de carpetas</h3>
+      <p>Crea una carpeta con el mismo nombre que tu paquete. Dentro de esta carpeta, crea un archivo llamado <code>__init__.py</code> que será el módulo principal de tu paquete. La estructura de tu proyecto debería verse así:</p>
+      <pre><code>mi_proyecto/
+│
+├── setup.py
+└── mi_paquete/
+    ├── __init__.py</code></pre>
+
+      <h3>3️⃣ Agregar contenido al archivo <code>__init__.py</code></h3>
+      <p>Dentro del archivo <code>__init__.py</code>, puedes definir las funciones o clases que desees que tu paquete exponga. Por ejemplo:</p>
+      <pre><code>def saludar(nombre):
+    return "Hola " + nombre + ", este es mi primer paquete pip!"</code></pre>
+
+      <h3>4️⃣ Crear el paquete</h3>
+      <p>Abre tu terminal, navega a la raíz de tu proyecto y ejecuta el siguiente comando para crear el paquete:</p>
+      <pre><code>python3 setup.py bdist_wheel sdist</code></pre>
+      <p>Esto generará archivos <code>.whl</code> y <code>.tar.gz</code> en una carpeta llamada <code>dist</code>, que contienen tu paquete listo para ser distribuido.</p>
+
+      <h3>5️⃣ Crear un nuevo Release en GitHub</h3>
+      <ol>
+        <li>Ve a tu repositorio en GitHub.</li>
+        <li>Haz clic en la pestaña "Releases".</li>
+        <li>Haz clic en "Draft a new release".</li>
+      </ol>
+
+      <h3>6️⃣ Crear un Tag (Versión)</h3>
+      <p>En la sección "Tag version", escribe la versión de tu paquete, por ejemplo, <code>v0.0.1</code>. Asegúrate de que el tag siga el formato <code>vX.Y.Z</code>, donde <code>X</code>, <code>Y</code>, y <code>Z</code> son números que representan la versión.</p>
+
+      <h3>7️⃣ Publicar el Release</h3>
+      <ol>
+        <li>Sube los archivos que generaste en la carpeta <code>dist</code> a este nuevo release. Puedes arrastrarlos y soltarlos en la interfaz de GitHub.</li>
+        <li>Escribe una descripción del release si lo deseas.</li>
+        <li>Haz clic en "Publish release" para hacer público tu paquete.</li>
+      </ol>
+
+      <h3>8️⃣ Instalar el paquete usando <code>pip</code></h3>
+      <p>Una vez que hayas publicado tu paquete, otros usuarios podrán instalarlo usando <code>pip</code> directamente desde tu repositorio de GitHub:</p>
+      <pre><code>pip install git+https://github.com/tu_usuario/mi_repositorio.git</code></pre>
+
+      <h3>Consideraciones Finales</h3>
+      <ul>
+        <li><strong>Pruebas:</strong> Antes de publicar tu paquete, asegúrate de probarlo localmente para verificar que todo funcione como se espera.</li>
+        <li><strong>Documentación:</strong> Es recomendable incluir documentación sobre cómo usar tu paquete, ya sea en el README del repositorio o en un archivo separado.</li>
+        <li><strong>Versionado:</strong> Sigue buenas prácticas de versionado (semántico) para facilitar el mantenimiento y la actualización de tu paquete.</li>
+      </ul>
+      <p>Con estos pasos, habrás creado y publicado con éxito un paquete de Python en GitHub. ¡Buena suerte!</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>

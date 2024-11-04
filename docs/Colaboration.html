@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos y Recursos Colaborativos de Git</title>
+    <link rel="stylesheet" href="./assets/css/Colaboration.css">
+    <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo">Aprende Git y GitHub</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#comandos-colaborativos">Comandos Colaborativos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Comandos y Recursos Colaborativos de Git</h2>
+            <p>Descubre cómo utilizar <code>git shortlog</code> y <code>git blame</code> para mejorar la colaboración en
+                tus proyectos de Git.</p>
+        </section>
+
+        <section id="comandos-colaborativos" class="section">
+            <h2>1️⃣ Git Shortlog</h2>
+            <p><code>git shortlog</code> se utiliza para generar un resumen de los commits por autor.</p>
+
+            <h3>a. Mostrar commits por miembro del grupo</h3>
+            <p><strong>Comando:</strong></p>
+            <pre><code>git shortlog -sn</code></pre>
+            <p><strong>Descripción:</strong> Muestra cuántos commits ha hecho cada miembro del grupo.</p>
+
+            <h3>b. Mostrar commits por miembro sin contar merges</h3>
+            <p><strong>Comando:</strong></p>
+            <pre><code>git shortlog -sn --all --no-merges</code></pre>
+            <p><strong>Descripción:</strong> Muestra la cantidad de commits por cada miembro, excluyendo los merges.</p>
+            <br>
+            <h2>2️⃣ Git Blame</h2>
+            <p><code>git blame</code> permite identificar quién realizó cambios en cada línea de un archivo específico.
+            </p>
+
+            <h3>a. Ver quién hizo cada línea en un archivo</h3>
+            <p><strong>Comando:</strong></p>
+            <pre><code>git blame archivo</code></pre>
+            <p><strong>Descripción:</strong> Muestra línea por línea quién hizo cada cambio en un archivo específico.
+            </p>
+
+            <h3>b. Ver quién hizo cada línea con mejor indentación</h3>
+            <p><strong>Comando:</strong></p>
+            <pre><code>git blame -c archivo</code></pre>
+            <p><strong>Descripción:</strong> Similar al anterior, pero con mejor indentación para facilitar la lectura.
+            </p>
+
+            <h3>c. Ver quién hizo cada línea en un rango específico</h3>
+            <p><strong>Comando:</strong></p>
+            <pre><code>git blame archivo -L lineinicial,lineafinal</code></pre>
+            <p><strong>Descripción:</strong> Muestra quién hizo cada cambio línea por línea en un rango específico
+                (ejemplo: L35,L60).</p>
+            <br>
+            <h2>Consideraciones Finales</h2>
+            <ul>
+                <li><strong>Colaboración:</strong> Estos comandos son esenciales para entender la contribución de cada
+                    miembro del equipo y para facilitar la revisión de cambios en el código.</li>
+                <li><strong>Aprendizaje continuo:</strong> Familiarizarse con herramientas como Jenkins, Azure, GitLab y
+                    DevOps puede mejorar significativamente tus habilidades en la gestión de proyectos de software.</li>
+            </ul>
+            <p>Con esta guía, podrás utilizar comandos colaborativos en Git y explorar nuevas herramientas para mejorar
+                tu flujo de trabajo.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+    </footer>
+</body>
+
+</html>

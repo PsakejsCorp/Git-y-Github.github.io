@@ -1,0 +1,112 @@
+/* github-projects.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    padding: 1rem 0;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ffdd57;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: left;
+}
+
+.section h2 {
+    color: #1e90ff;
+    margin-bottom: 1rem;
+}
+
+.section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.section ul li {
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+    border-left: 4px solid #1e90ff;
+    margin-bottom: 0.5rem;
+}
+
+.section ul li strong {
+    color: #333;
+}
+
+.section ul li code {
+    background-color: #e9ecef;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.section h3 {
+    color: #333;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
