@@ -1,0 +1,21 @@
+/* Estilos para los botones de navegación */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+.prev-button, .next-button {
+    background-color: #3c86e7;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.prev-button:hover, .next-button:hover {
+    background-color: #1b3961;
+}
