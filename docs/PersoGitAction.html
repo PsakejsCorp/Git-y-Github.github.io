@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalizar tu Perfil de GitHub con GitHub Actions</title>
+  <link rel="stylesheet" href="./assets/css/PersonGitAction.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#personalizacion">Personalización</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Personalizar tu Perfil de GitHub con GitHub Actions 🎨</h2>
+      <p>Haz que tu perfil de GitHub se vea más atractivo y profesional utilizando GitHub Actions para mostrar tu actividad.</p>
+    </section>
+
+    <section id="personalizacion" class="section">
+      <h2>Pasos para Personalizar tu Perfil</h2>
+
+      <h3>1️⃣ Elegir el Repositorio de tu Nombre</h3>
+      <ul>
+        <li><strong>Crea un Repositorio:</strong> Asegúrate de tener un repositorio con el nombre exacto de tu usuario de GitHub. Si no lo tienes, créalo con tu nombre de usuario.</li>
+      </ul>
+
+      <h3>2️⃣ Editar el README.md</h3>
+      <ul>
+        <li><strong>Abrir el Archivo README:</strong> Localiza y abre el archivo README.md en tu repositorio.</li>
+        <li><strong>Agregar Secciones de Actividad:</strong> Añade el siguiente código entre comentarios en tu README.md:</li>
+        <pre><code>&lt;!-- START_SECTION:activity --&gt;
+&lt;!-- END_SECTION:activity --&gt;</code></pre>
+      </ul>
+
+      <h3>3️⃣ Configurar GitHub Actions</h3>
+      <ul>
+        <li><strong>Ir a la Pestaña de GitHub Actions:</strong> Haz clic en la pestaña "Actions" en tu repositorio.</li>
+        <li><strong>Elegir un Workflow Sencillo:</strong> Selecciona un workflow predefinido para empezar.</li>
+        <li><strong>Escribir el Código del Workflow:</strong> Configura un archivo YAML en <code>.github/workflows/</code>. Aquí tienes un ejemplo básico:</li>
+        <pre><code>name: Update Activity
+on:
+  schedule:
+    - cron: '0 * * * *' # Actualiza cada hora
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Update activity
+        uses: crazy-max/ghaction-github-actions@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}</code></pre>
+      </ul>
+
+      <h3>4️⃣ Ejecutar GitHub Actions</h3>
+      <ul>
+        <li><strong>Ejecutar el Workflow:</strong> Regresa a la pestaña de "Actions" y haz clic en "Run workflow" para ejecutarlo manualmente por primera vez.</li>
+      </ul>
+
+      <h3>5️⃣ Verificar la Personalización</h3>
+      <ul>
+        <li><strong>Visitar tu Perfil:</strong> Después de que la acción se ejecute, ve a tu perfil de GitHub para ver la sección de actividad actualizada.</li>
+      </ul>
+
+      <h3>Consideraciones Finales</h3>
+      <ul>
+        <li><strong>Explorar Más Opciones:</strong> Personaliza aún más tu perfil con diferentes acciones y configuraciones.</li>
+        <li><strong>Ajustes Adicionales:</strong> Modifica el cron o agrega pasos al workflow según sea necesario.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>

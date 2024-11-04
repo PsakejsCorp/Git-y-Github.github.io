@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Datos Sensibles y Políticas de Seguridad</title>
+  <link rel="stylesheet" href="./assets/css/Security.css">
+  <link rel="shortcut icon" href=./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#seguridad">Seguridad</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Gestión de Datos Sensibles y Políticas de Seguridad 🔒</h2>
+      <p>La gestión de datos sensibles y la implementación de políticas de seguridad son esenciales para proteger la integridad de tu código y la información sensible en GitHub.</p>
+    </section>
+
+    <section id="seguridad" class="section">
+      <h2>Pasos para la Gestión de Datos Sensibles</h2>
+
+      <h3>1️⃣ Acceder a Ajustes</h3>
+      <ul>
+        <li>Dirígete a la página principal de tu repositorio en GitHub.</li>
+        <li>Haz clic en la pestaña <strong>"Settings" (Ajustes)</strong>, que se encuentra en la parte superior de la página.</li>
+        <li>En la barra lateral izquierda, desplázate hacia abajo y selecciona <strong>"Code Security and Analysis"</strong>.</li>
+      </ul>
+
+      <h3>2️⃣ Habilitar Code Scanning</h3>
+      <ul>
+        <li>En la sección de <strong>Code Security and Analysis</strong>, busca el apartado de <strong>Code Scanning</strong>.</li>
+        <li>Selecciona <strong>CodeQL Analysis</strong>. Este análisis está diseñado para buscar vulnerabilidades en tu código y sugerir correcciones.</li>
+        <li>Asegúrate de habilitarlo en <strong>Default</strong> para que se ejecute automáticamente con cada push y pull request.</li>
+        <li>Configuración adicional: Puedes personalizar el comportamiento de CodeQL a través de un archivo de configuración <code>.yml</code>, donde puedes especificar qué lenguajes de programación analizar y cómo manejar los hallazgos.</li>
+      </ul>
+
+      <h3>3️⃣ Activar Secret Scanning</h3>
+      <ul>
+        <li>Una vez habilitado el análisis de CodeQL, se activará automáticamente el <strong>Secret Scanning</strong>. Este escáner revisa tu código en busca de credenciales o datos sensibles que no deberían estar en el repositorio.</li>
+        <li>Si se detectan secretos, recibirás alertas para que puedas tomar las medidas necesarias.</li>
+      </ul>
+
+      <h3>4️⃣ Configuración de Alertas y Respuestas</h3>
+      <ul>
+        <li>En la misma sección, puedes configurar las notificaciones para alertas relacionadas con vulnerabilidades y secretos.</li>
+        <li>Es recomendable establecer un flujo de trabajo para responder rápidamente a las alertas.</li>
+      </ul>
+
+      <h3>5️⃣ Mejores Prácticas</h3>
+      <ul>
+        <li><strong>Revisión del Código:</strong> Implementa un proceso de revisión de código para asegurar que los cambios propuestos sean revisados antes de ser fusionados.</li>
+        <li><strong>Uso de Variables de Entorno:</strong> Evita almacenar datos sensibles en el código fuente. Utiliza variables de entorno o servicios de gestión de secretos.</li>
+        <li><strong>Auditoría Regular:</strong> Realiza auditorías periódicas de tu código y configuraciones de seguridad.</li>
+      </ul>
+
+      <h3>6️⃣ Recursos Adicionales</h3>
+      <ul>
+        <li>Para más información sobre cómo gestionar secretos en GitHub, visita la <a href="https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/working-with-secrets">documentación oficial de GitHub sobre la gestión de secretos</a>.</li>
+        <li>Considera implementar herramientas adicionales de seguridad como Dependabot para mantener tus dependencias actualizadas.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
