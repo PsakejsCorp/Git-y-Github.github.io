@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear un Pull Request Template</title>
+  <link rel="stylesheet" href="./assets/css/pullrequesttem.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#pull-request-template">Crear un Pull Request Template</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Crear un Pull Request Template 📄</h2>
+      <p>Para facilitar la creación y revisión de Pull Requests en tu repositorio, puedes establecer una plantilla. A continuación, te explico cómo hacerlo:</p>
+    </section>
+
+    <section id="pull-request-template" class="section">
+      <h2>Pasos para crear un Pull Request Template</h2>
+
+      <h3>📂 Accede a la carpeta <code>.github</code> en tu repositorio</h3>
+      <ul>
+        <li><code>cd .github</code> - Ve a la carpeta <code>.github</code> en tu repositorio local.</li>
+        <li><code>touch pull_request_template.md</code> - Crea un archivo llamado <code>pull_request_template.md</code>.</li>
+      </ul>
+
+      <h3>📄 Agrega el contenido de la plantilla</h3>
+      <p>En <code>pull_request_template.md</code>, agrega el siguiente contenido para estructurar los Pull Requests:</p>
+      
+      <pre><code>
+# Pull Request Template
+
+**Descripción:**
+[Proporciona una breve descripción de los cambios realizados]
+
+**Motivación y contexto:**
+[Explica la razón detrás de estos cambios]
+
+**Tipo de cambio:**
+- [ ] Bug fix
+- [ ] Nueva característica
+- [ ] Cambio de documentación
+- [ ] Otros (especificar)
+
+**Cómo probar estos cambios:**
+[Proporciona instrucciones sobre cómo probar los cambios]
+
+**Capturas de pantalla:**
+[Incluye capturas de pantalla si es necesario]
+
+**Checklist:**
+- [ ] He probado mis cambios
+- [ ] He documentado mis cambios
+- [ ] Mis cambios no rompen nada
+      </code></pre>
+
+      <h3>🔍 Ver la plantilla en GitHub</h3>
+      <p>Cuando crees un nuevo Pull Request en tu repositorio en GitHub, esta plantilla se cargará automáticamente. Puedes ajustarla o ampliarla según las necesidades de tu proyecto.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>

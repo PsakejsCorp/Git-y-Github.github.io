@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Cherry-Pick</title>
+  <link rel="stylesheet" href="./assets/css/Cherry.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#cherry-pick">Git Cherry-Pick</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Git Cherry-Pick 🍒</h2>
+      <p>El comando <code>git cherry-pick</code> se utiliza para traer cambios desde otra rama a la rama actual. Sin embargo, se considera mala práctica abusar de este comando.</p>
+    </section>
+
+    <section id="cherry-pick" class="section">
+      <h2>Comandos de Git Cherry-Pick</h2>
+
+      <h3>🍒 Traer un commit específico</h3>
+      <ul>
+        <li><code>git cherry-pick nombrecommitdelaotraram</code> - Trae un commit específico de otra rama a la rama actual, conservando su nombre original.</li>
+      </ul>
+
+      <h3>🍒 Traer cambios sin hacer commit</h3>
+      <ul>
+        <li><code>git cherry-pick nombrecommitdelaotraram -n</code> - Aplica los cambios del commit sin ejecutar un nuevo commit.</li>
+      </ul>
+
+      <h3>✏️ Modificar mensaje del commit</h3>
+      <ul>
+        <li><code>git cherry-pick nombrecommitdelaotraram -e</code> - Trae el commit permitiéndote modificar el mensaje con la opción <code>-e</code>.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
