@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Stash</title>
+  <link rel="stylesheet" href="./assets/css/Stash.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#stash">Git Stash</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Git Stash 🗄️</h2>
+      <p>Imagina que quieres cambiar de rama y no deseas hacer un commit de tus cambios actuales, pero quieres guardarlos temporalmente. Esto se hace con <code>git stash</code>.</p>
+    </section>
+
+    <section id="stash" class="section">
+      <h2>Comandos de Git Stash</h2>
+
+      <h3>💾 Guardar Cambios</h3>
+      <ul>
+        <li><code>git stash</code> - Guarda cambios del archivo actual temporalmente.</li>
+        <li><code>git stash -u</code> - Guarda todos los cambios de todos los archivos.</li>
+        <li><code>git stash save "mensaje"</code> - Guarda los cambios temporalmente con un nombre específico.</li>
+      </ul>
+
+      <h3>📋 Mostrar y Administrar Stashes</h3>
+      <ul>
+        <li><code>git stash list</code> - Muestra la lista de cambios guardados temporalmente.</li>
+        <li><code>git branch nombrerama stash@(<num_stash>)</code> - Crea una nueva rama y aplica el stash.</li>
+      </ul>
+
+      <h3>🔄 Liberar Cambios Guardados</h3>
+      <ul>
+        <li><code>git stash pop</code> - Libera los cambios guardados para hacer el commit (se pueden liberar en cualquier rama).</li>
+        <li><code>git stash pop stash@(<num_stash>)</code> - Libera un cambio específico.</li>
+      </ul>
+
+      <h3>🗑️ Eliminar Stashes</h3>
+      <ul>
+        <li><code>git stash drop</code> - Elimina el último cambio agregado a la lista de cambios guardados.</li>
+        <li><code>git stash drop stash@(<num_stash>)</code> - Elimina un stash específico.</li>
+        <li><code>git stash clear</code> - Elimina toda la lista de stashes.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
