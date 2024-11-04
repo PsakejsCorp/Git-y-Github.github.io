@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rebase en Git</title>
+  <link rel="stylesheet" href="./assets/css/Rebase.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Guía de Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#rebase">Rebase</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Rebase en Git ⚙️</h2>
+    </section>
+
+    <section id="rebase" class="section">
+      <h2>Nota Importante</h2>
+      <p>El uso de rebase en repositorios remotos es considerado una mala práctica. Se recomienda realizarlo únicamente en repositorios locales.</p>
+
+      <h3>Pasos para Realizar un Rebase</h3>
+
+      <h4>1. Crea una Nueva Rama:</h4>
+      <p>Ejecuta el siguiente comando:</p>
+      <pre><code>git checkout -b nueva-rama</code></pre>
+
+      <h4>2. Realiza los Cambios:</h4>
+      <p>Haz los cambios que desees en esa rama.</p>
+
+      <h4>3. Ejecuta el Rebase:</h4>
+      <p>Estando en la rama creada, ejecuta:</p>
+      <pre><code>git rebase main</code></pre>
+
+      <h4>4. Resolver Conflictos:</h4>
+      <p>Si hay conflictos, resuélvelos y continúa con el siguiente comando:</p>
+      <pre><code>git rebase --continue</code></pre>
+
+      <h4>5. Cambia a la Rama Principal:</h4>
+      <p>Ejecuta el siguiente comando:</p>
+      <pre><code>git checkout main</code></pre>
+
+      <h4>6. Fusiona la Rama Rebasa con la Principal:</h4>
+      <p>Finalmente, ejecuta:</p>
+      <pre><code>git rebase nueva-rama</code></pre>
+      <p>Ahora las dos ramas se habrán fusionado correctamente.</p>
+
+      <h3>Iniciar el Servidor Local</h3>
+      <p>Para iniciar el servidor en tu máquina local, ejecuta:</p>
+      <pre><code>http-server</code></pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Guía de Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>

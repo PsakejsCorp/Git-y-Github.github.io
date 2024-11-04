@@ -1,4 +1,4 @@
-/* readme.css */
+/* rebase.css */
 
 * {
     box-sizing: border-box;
@@ -54,7 +54,7 @@ body {
 .hero {
     text-align: center;
     padding: 3rem 1.5rem;
-    background-color: #3498db;
+    background-color: #4a90e2;
     color: #fff;
 }
 
@@ -64,29 +64,38 @@ body {
 }
 
 .section {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
     text-align: left;
-    margin-bottom: 95px;
 }
 
 .section h2 {
-    color: #3498db;
+    color: #4a90e2;
     margin-bottom: 1rem;
 }
 
-.section ul {
+.section h3 {
+    color: #333;
     margin-top: 1rem;
-    padding-left: 1.5rem;
+}
+
+.section h4 {
+    color: #4a90e2;
+    margin-top: 1rem;
 }
 
 .section p {
-    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
-
-
+.section pre {
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border-left: 4px solid #4a90e2;
+    overflow-x: auto;
+}
 
 .footer {
     text-align: center;

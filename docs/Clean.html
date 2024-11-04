@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Clean</title>
+  <link rel="stylesheet" href="./assets/css/clean.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#clean">Git Clean</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Git Clean 🧹</h2>
+      <p>El comando <code>git clean</code> se utiliza para eliminar archivos que no deberían estar en el repositorio, es decir, aquellos que no están bajo seguimiento por Git.</p>
+    </section>
+
+    <section id="clean" class="section">
+      <h2>Comandos de Git Clean</h2>
+
+      <h3>🔍 Revisar Archivos No Seguimiento</h3>
+      <ul>
+        <li><code>git clean --dry-run</code> - Revisa qué archivos no tienen seguimiento y serán eliminados. Este paso es obligatorio para evitar la eliminación accidental de archivos importantes.</li>
+      </ul>
+
+      <h3>🧹 Eliminar Archivos No Deseados</h3>
+      <ul>
+        <li><code>git clean</code> - Elimina los archivos que no están bajo seguimiento según el comando anterior.</li>
+        <li><code>git clean -f</code> - Elimina los archivos forzadamente, útil si el comando anterior no funciona.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
