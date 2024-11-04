@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Grep y Log</title>
+  <link rel="stylesheet" href="./assets/css/Grep.css">
+  <link rel="shortcut icon" href="./assets/css/Grep.css" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#git-grep-log">Git Grep y Log</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Git Grep y Log</h2>
+      <p>Aprende a buscar contenido en tu código y explorar el historial de cambios usando <code>git grep</code> y <code>git log</code>.</p>
+    </section>
+
+    <section id="git-grep-log" class="section">
+      <h2>1️⃣ Git Grep</h2>
+      <p><code>git grep</code> es una herramienta que permite buscar patrones en el contenido de los archivos de tu repositorio.</p>
+      
+      <h3>a. Buscar una palabra</h3>
+      <p><strong>Comando:</strong></p>
+      <pre><code>git grep palabra</code></pre>
+      <p><strong>Descripción:</strong> Busca en todos los archivos del repositorio la palabra especificada y muestra un resumen de los archivos donde se encuentra.</p>
+
+      <h3>b. Buscar una palabra con número de línea</h3>
+      <p><strong>Comando:</strong></p>
+      <pre><code>git grep -n palabra</code></pre>
+      <p><strong>Descripción:</strong> Similar al anterior, pero también muestra el número de línea donde aparece la palabra en cada archivo.</p>
+
+      <h3>c. Contar la cantidad de ocurrencias</h3>
+      <p><strong>Comando:</strong></p>
+      <pre><code>git grep -c palabra</code></pre>
+      <p><strong>Descripción:</strong> Cuenta la cantidad de veces que la palabra aparece en los archivos. Este comando también funciona con etiquetas HTML.</p>
+
+      <h2>2️⃣ Git Log</h2>
+      <p><code>git log</code> permite explorar el historial de commits de un repositorio.</p>
+      
+      <h3>a. Buscar palabra específica en commits</h3>
+      <p><strong>Comando:</strong></p>
+      <pre><code>git log -S palabra</code></pre>
+      <p><strong>Descripción:</strong> Busca una palabra específica en el contenido de los commits. Solo muestra los commits que añaden o eliminan esa palabra.</p>
+
+      <h3>b. Buscar palabras en mensajes de commits</h3>
+      <p><strong>Comando:</strong></p>
+      <pre><code>git log --all --grep=palabra</code></pre>
+      <p><strong>Descripción:</strong> Busca la palabra en los mensajes de commit a través de todas las ramas. Muestra todos los commits cuyo mensaje contenga la palabra especificada.</p>
+
+      <h2>Consideraciones Finales</h2>
+      <ul>
+        <li><strong>Usabilidad:</strong> <code>git grep</code> es útil para localizar rápidamente contenido en el código, mientras que <code>git log</code> ayuda a revisar el historial de cambios y entender la evolución del proyecto.</li>
+        <li><strong>Combinación de comandos:</strong> Puedes combinar estas herramientas para obtener una visión más completa de cómo y dónde se usa una palabra o frase específica en tu proyecto.</li>
+      </ul>
+      <p>Con esta guía, deberías poder usar <code>git grep</code> y <code>git log</code> de manera efectiva para buscar información relevante en tu repositorio.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>

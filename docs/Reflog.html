@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git Reset y Reflog</title>
+  <link rel="stylesheet" href="./assets/css/Reflog.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#git-reset-reflog">Git Reset y Reflog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Git Reset y Reflog</h2>
+      <p>Aprende a deshacer cambios y a rastrear la historia de tu repositorio usando <code>git reset</code> y <code>git reflog</code>.</p>
+    </section>
+
+    <section id="git-reset-reflog" class="section">
+      <h2>1️⃣ Git Reset</h2>
+      <p><code>git reset</code> se utiliza para deshacer cambios en el área de staging y en el directorio de trabajo. Hay diferentes modos de uso:</p>
+      
+      <h3>a. git reset --soft</h3>
+      <p><strong>Descripción:</strong> Este comando mueve el puntero HEAD a la referencia anterior, pero mantiene los cambios en el área de staging (index).</p>
+      <p><strong>Uso:</strong></p>
+      <pre><code>git reset --soft &lt;commit&gt;</code></pre>
+
+      <h3>b. git reset --hard</h3>
+      <p><strong>Descripción:</strong> Este comando restablece el puntero HEAD a la referencia anterior y elimina todos los cambios en el área de staging y en el directorio de trabajo. (Mala práctica en muchas situaciones, ya que elimina cambios no guardados)</p>
+      <p><strong>Uso:</strong></p>
+      <pre><code>git reset --hard &lt;commit&gt;</code></pre>
+
+      <h2>2️⃣ Git Reflog</h2>
+      <p><code>git reflog</code> es una herramienta útil que permite ver un registro de todas las referencias y cambios realizados en tu repositorio, incluso aquellos que han sido eliminados.</p>
+      <h3>Descripción</h3>
+      <p><strong>Función:</strong> Muestra todos los cambios hechos hasta ahora, incluyendo las actualizaciones de ramas y los cambios eliminados, enumerados por referencia.</p>
+      <p><strong>Uso:</strong></p>
+      <pre><code>git reflog</code></pre>
+      <h3>Ejemplo de salida</h3>
+      <p>Al ejecutar <code>git reflog</code>, obtendrás una salida que muestra una lista de acciones recientes en tu repositorio:</p>
+      <pre><code>
+1d2a3b4 HEAD@{0}: commit: Mensaje del commit
+5c6d7e8 HEAD@{1}: reset: moving to HEAD^
+9f0a1b2 HEAD@{2}: checkout: moving from branch to branch
+      </code></pre>
+      <p>Esto te permitirá regresar a un estado anterior de tu proyecto si es necesario, utilizando la referencia mostrada.</p>
+
+      <h2>Consideraciones Finales</h2>
+      <ul>
+        <li><strong>Precaución con --hard:</strong> Ten cuidado al usar <code>git reset --hard</code>, ya que puede llevar a la pérdida de trabajo no guardado.</li>
+        <li><strong>Uso de reflog:</strong> Es recomendable revisar el reflog si necesitas deshacer cambios o recuperar un estado anterior del repositorio.</li>
+      </ul>
+      <p>Con esta guía, deberías tener una comprensión clara de cómo usar <code>git reset</code> y <code>git reflog</code> de manera efectiva en tus proyectos.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
