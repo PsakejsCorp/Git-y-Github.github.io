@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagramas de Ramas en Git con Mermaid</title>
+  <link rel="stylesheet" href="./assets/css/Mermaid.css">
+  <link rel="shortcut icon" href="./assets/images/github.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Aprende Git y GitHub</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#mermaid">Mermaid</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Herramienta para hacer diagramas de trabajo de ramas en GitHub: Mermaid 🌊</h2>
+      <p>Mermaid es una herramienta excelente para crear diagramas de flujo y gráficos de trabajo en Git.</p>
+    </section>
+
+    <section id="mermaid" class="section">
+      <h2>Pasos para crear un diagrama de trabajo de ramas</h2>
+
+      <h3>🌐 Accede a Mermaid</h3>
+      <ul>
+        <li>Ir a <a href="https://mermaid-js.github.io/mermaid-live-editor/" target="_blank">Mermaid Live</a>: Te llevará al editor en línea donde puedes escribir y visualizar tus diagramas.</li>
+      </ul>
+
+      <h3>📜 Código para un gráfico de Git</h3>
+      <p>Ingresa el siguiente código para crear un gráfico de flujo de trabajo en Git:</p>
+      
+      <pre><code>
+gitGraph
+  commit
+  branch nuevaRama
+  checkout nuevaRama
+  commit
+  checkout main
+  merge nuevaRama
+      </code></pre>
+
+      <h3>📌 Palabras clave en Mermaid</h3>
+      <ul>
+        <li><b>commit:</b> Crea un nuevo commit en la rama actual.</li>
+        <li><b>branch:</b> Crea una nueva rama.</li>
+        <li><b>checkout:</b> Cambia a la rama especificada.</li>
+        <li><b>merge:</b> Combina la rama especificada con la actual.</li>
+      </ul>
+
+      <p>Con estas palabras clave, podrás visualizar el flujo de trabajo y las interacciones entre las ramas de tu proyecto.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Aprende Git y GitHub Por AlejandroPR23</p>
+  </footer>
+</body>
+</html>
