@@ -19,3 +19,87 @@
 .prev-button:hover, .next-button:hover {
     background-color: #1b3961;
 }
+
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ffdd57;
+}
+
+/* Menú desplegable estilo hamburguesa en dispositivos móviles */
+.menu-toggle {
+    display: none;
+}
+
+/* Estilo del ícono de menú (hamburguesa) */
+.menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        top: 74px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        display: none;
+    }
+
+    .nav-links li {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    /* Mostrar el ícono de hamburguesa en pantallas pequeñas */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Mostrar el menú cuando el checkbox está activado */
+    .menu-toggle:checked + .menu-icon + .nav-links {
+        display: flex;
+    }
+}
+
