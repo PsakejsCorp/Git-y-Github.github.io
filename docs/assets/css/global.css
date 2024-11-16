@@ -6,6 +6,14 @@
     padding: 2rem;
 }
 
+.logo-a{
+       text-decoration: none;
+       color:#fff;
+}
+
+.logo-a:hover{
+    color: #ffe789;
+}
 .prev-button, .next-button {
     background-color: #3c86e7;
     color: white;
