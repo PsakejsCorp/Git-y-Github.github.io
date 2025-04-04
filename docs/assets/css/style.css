@@ -64,6 +64,10 @@
   }
   
   .hero p {
+    background-color: #FFFFFF;
+    color: #141414;
+    padding: 1rem;
+    border-radius: 1.2rem;
     font-size: 1.2rem;
   }
   
@@ -84,8 +88,8 @@
     display: inline-block;
     padding: 0.8rem 1.5rem;
     margin-top: 1rem;
-    color: #4a90e2;
-    background-color: #fff;
+    color: #FFFFFF;
+    background-color: #333333;
     border-radius: 4px;
     text-decoration: none;
   }
@@ -102,7 +106,6 @@
     text-align: center;
   }
 
- 
   
   .resources ul {
     list-style: none;
@@ -114,7 +117,7 @@
   
   .resources a {
     text-decoration: none;
-    color: #4a90e2;
+    color: #141414;
   }
   
   .resources a:hover {

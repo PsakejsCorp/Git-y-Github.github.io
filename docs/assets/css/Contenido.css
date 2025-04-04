@@ -64,6 +64,10 @@ body {
 }
 
 .hero p {
+    background-color: #FFFFFF;
+    color: #141414;
+    padding: 1rem;
+    border-radius: 1.2rem;
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
@@ -84,7 +88,7 @@ section ol li {
 
 section ol li a {
     text-decoration: none;
-    color: #4a90e2;
+    color: #171717;
     font-weight: 500;
 }
 

@@ -27,7 +27,7 @@
   
   h1 {
     font-size: 4rem;
-    color: #e74c3c;
+    color: #7e1307;
   }
   
   p {
@@ -39,14 +39,14 @@
     display: inline-block;
     margin-top: 2rem;
     padding: 0.8rem 2rem;
-    background-color: #3498db;
-    color: white;
+    background-color: #D6D6D6;
+    color: #080808;
     text-decoration: none;
     border-radius: 4px;
     font-weight: bold;
   }
   
   .home-link:hover {
-    background-color: #2980b9;
+    background-color: #bdbaba;
   }
   
